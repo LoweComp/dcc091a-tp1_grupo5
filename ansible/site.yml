@@ -40,4 +40,38 @@
     - name: Criar pagina HTML personalizada identificando o no (para testes)
       copy:
         content: "<h1>Bem-vindo ao {{ inventory_hostname }} - LOWE</h1>"
-        dest: /var/www/html/index.html        
+        dest: /var/www/html/index.html    
+
+- hosts: bastion
+  become: yes
+  tasks:
+    - name: Instalar Nginx no Bastion (Proxy Reverso)
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Configurar o Proxy Reverso para o Cluster Web
+      copy:
+        content: |
+          upstream web_cluster {
+              server 192.168.56.11;
+              server 192.168.56.12;
+          }
+          server {
+              listen 80;
+              location / {
+                  proxy_pass http://web_cluster;
+                  proxy_set_header Host $host;
+                  proxy_set_header X-Real-IP $remote_addr;
+              }
+          }
+        dest: /etc/nginx/sites-available/default
+      notify: Reiniciar Nginx no Bastion
+
+  handlers:
+    - name: Reiniciar Nginx no Bastion
+      service:
+        name: nginx
+        state: restarted 
+     
