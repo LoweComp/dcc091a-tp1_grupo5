@@ -1,0 +1,34 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/jammy64"
+
+  config.vm.define "bastion" do |bastion|
+    bastion.vm.network "private_network", ip: "192.168.56.10"
+    bastion.vm.provider "virtualbox" do |vb|
+      vb.memory = "512"
+    end
+  end
+
+  config.vm.define "web1" do |web1|
+    web1.vm.network "private_network", ip: "192.168.56.11"
+    web1.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+    end
+  end
+
+  config.vm.define "web2" do |web2|
+    web2.vm.network "private_network", ip: "192.168.56.12"
+    web2.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+    end
+  end
+
+  config.vm.define "db" do |db|
+    db.vm.network "private_network", ip: "192.168.56.20"
+    
+    db.vm.synced_folder "../dados_db_host", "/var/lib/dados_persistentes"
+    
+    db.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+    end
+  end
+end
