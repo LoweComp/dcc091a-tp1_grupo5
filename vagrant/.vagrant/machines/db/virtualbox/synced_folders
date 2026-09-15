@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/lib/dados_persistentes":{"guestpath":"/var/lib/dados_persistentes","hostpath":"D:/Workspace/dcc091a-tp1/dados_db_host","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/Workspace/dcc091a-tp1/vagrant","disabled":false,"__vagrantfile":true}}}
