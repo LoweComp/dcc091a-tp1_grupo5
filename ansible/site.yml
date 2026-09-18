@@ -16,6 +16,35 @@
         line: 'PermitRootLogin no'
       notify: Reiniciar SSH
 
+    - name: Garantir que o UFW esta instalado
+      apt:
+        name: ufw
+        state: present
+
+    - name: Permitir conexoes SSH (Porta 22)
+      ufw:
+        rule: allow
+        port: '22'
+        proto: tcp
+
+    - name: Permitir HTTP (Porta 80)
+      ufw:
+        rule: allow
+        port: '80'
+        proto: tcp
+
+    - name: Permitir HTTPS (Porta 443)
+      ufw:
+        rule: allow
+        port: '443'
+        proto: tcp
+
+    - name: Ativar o UFW e definir politica padrao (Nega IN, Permite OUT)
+      ufw:
+        state: enabled
+        direction: incoming
+        policy: deny
+
   handlers:
     - name: Reiniciar SSH
       service:
