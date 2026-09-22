@@ -1,0 +1,46 @@
+1 INJEÇÃO DE CHAVE SEM SENHA
+
+Dentro do Bastion:
+Geração:
+ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519
+Cópia:
+cat ~/.ssh/id_ed25519.pub > /vagrant/chave_bastion.pub
+
+No Windows (Injeção):
+vagrant ssh bastion -c "cat /vagrant/chave_bastion.pub >> ~/.ssh/authorized_keys"
+vagrant ssh web1 -c "cat /vagrant/chave_bastion.pub >> ~/.ssh/authorized_keys"
+vagrant ssh web2 -c "cat /vagrant/chave_bastion.pub >> ~/.ssh/authorized_keys"
+vagrant ssh db -c "cat /vagrant/chave_bastion.pub >> ~/.ssh/authorized_keys"
+
+2. TESTE PROXY REVERSO
+for i in {1..4}; do curl -s http://192.168.56.10; echo -e "\n------------------------"; sleep 1; done
+
+3. TESTE ATIVO DE VALIDAÇÃO
+
+vagrant ssh bastion
+ssh -o PreferredAuthentications=password vagrant@192.168.56.11
+ssh root@192.168.56.11 
+nc -zv 192.168.56.11 80
+nc -zv -w 2 192.168.56.11 3306
+
+4. PERSISTÊNCIA DE DADOS NO DB
+
+TESTES ANTERIORES:
+vagrant ssh db
+ls -la /var/lib/dados_persistentes/
+cat /var/lib/dados_persistentes/banco_teste.txt
+
+TESTE LIVE:
+bash -c 'for i in {1..5}; do echo "[$(date)] Teste de desastre [LIVE] - Linha $i" | sudo tee -a /var/lib/dados_persistentes/log_survivor.txt; sleep 1; done'
+cat /var/lib/dados_persistentes/log_survivor.txt
+exit
+
+vagrant destroy -f db
+vagrant up db
+vagrant ssh db
+cat /var/lib/dados_persistentes/log_survivor.txt
+
+REINTEGRAR CHAVE E REGRAS DE SEGURANÇA AO BD:
+vagrant ssh db -c "cat /vagrant/chave_bastion.pub >> ~/.ssh/authorized_keys"
+vagrant ssh bastion -c "ansible-playbook -i /home/vagrant/ansible/inventory.ini /home/vagrant/ansible/site.yml"
+
