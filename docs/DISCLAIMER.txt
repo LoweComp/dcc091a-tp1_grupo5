@@ -1,0 +1,1 @@
+DISCLAIMER: Os arquivos banco_teste.txt e log_survivor.txt foram sobreviventes de duas destruições do vagrant db.
