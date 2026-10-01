@@ -1,0 +1,53 @@
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: lo: Link UP
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: lo: Gained carrier
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: Enumeration completed
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: enp0s8: Link UP
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: enp0s3: Link UP
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: enp0s8: Gained carrier
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: enp0s3: Gained carrier
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: enp0s3: DHCPv4 address 10.0.2.15/24 via 10.0.2.2
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: enp0s8: Gained IPv6LL
+Oct  1 17:14:24 ubuntu-jammy systemd-networkd[626]: enp0s3: Gained IPv6LL
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: Re-configuring with /run/systemd/network/10-netplan-enp0s3.network
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: DHCP lease lost
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: DHCPv6 lease lost
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s8: Re-configuring with /run/systemd/network/10-netplan-enp0s8.network
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s8: DHCPv6 lease lost
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: DHCPv4 address 10.0.2.15/24 via 10.0.2.2
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: Re-configuring with /run/systemd/network/10-netplan-enp0s3.network
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: DHCP lease lost
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: DHCPv6 lease lost
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s8: Re-configuring with /run/systemd/network/10-netplan-enp0s8.network
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s8: DHCPv6 lease lost
+Oct  1 17:14:29 ubuntu-jammy systemd-networkd[626]: enp0s3: DHCPv4 address 10.0.2.15/24 via 10.0.2.2
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: lo: Link UP
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: lo: Gained carrier
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: Enumeration completed
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: enp0s8: Link UP
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: enp0s3: Link UP
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: enp0s8: Gained carrier
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: enp0s3: Gained carrier
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: enp0s3: DHCPv4 address 10.0.2.15/24 via 10.0.2.2
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: enp0s3: Gained IPv6LL
+Oct  1 17:15:06 ubuntu-jammy systemd-networkd[628]: enp0s8: Gained IPv6LL
+Oct  1 17:15:11 ubuntu-jammy systemd-networkd[628]: enp0s3: Re-configuring with /run/systemd/network/10-netplan-enp0s3.network
+Oct  1 17:15:11 ubuntu-jammy systemd-networkd[628]: enp0s3: DHCP lease lost
+Oct  1 17:15:11 ubuntu-jammy systemd-networkd[628]: enp0s3: DHCPv6 lease lost
+Oct  1 17:15:11 ubuntu-jammy systemd-networkd[628]: enp0s8: Re-configuring with /run/systemd/network/10-netplan-enp0s8.network
+Oct  1 17:15:11 ubuntu-jammy systemd-networkd[628]: enp0s8: DHCPv6 lease lost
+Oct  1 17:15:46 ubuntu-jammy systemd-networkd[635]: enp0s3: Gained IPv6LL
+Oct  1 17:15:46 ubuntu-jammy systemd-networkd[635]: enp0s8: Gained IPv6LL
+Oct  1 17:15:52 ubuntu-jammy systemd-networkd[635]: enp0s8: Re-configuring with /run/systemd/network/10-netplan-enp0s8.network
+Oct  1 17:15:52 ubuntu-jammy systemd-networkd[635]: enp0s8: DHCPv6 lease lost
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: lo: Link UP
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: lo: Gained carrier
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: Enumeration completed
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: enp0s8: Link UP
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: enp0s3: Link UP
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: enp0s8: Gained carrier
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: enp0s3: Gained carrier
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: enp0s3: DHCPv4 address 10.0.2.15/24 via 10.0.2.2
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: enp0s3: Gained IPv6LL
+Oct  1 17:16:29 ubuntu-jammy systemd-networkd[632]: enp0s8: Gained IPv6LL
+Oct  1 17:16:34 ubuntu-jammy systemd-networkd[632]: enp0s8: Re-configuring with /run/systemd/network/10-netplan-enp0s8.network
+Oct  1 17:16:34 ubuntu-jammy systemd-networkd[632]: enp0s8: DHCPv6 lease lost

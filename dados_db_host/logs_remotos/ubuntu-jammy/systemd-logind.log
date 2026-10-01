@@ -12,3 +12,63 @@ Oct  1 16:40:12 ubuntu-jammy systemd-logind[700]: New session 5 of user vagrant.
 Oct  1 16:40:56 ubuntu-jammy systemd-logind[700]: Session 5 logged out. Waiting for processes to exit.
 Oct  1 16:40:56 ubuntu-jammy systemd-logind[700]: Removed session 5.
 Oct  1 16:41:06 ubuntu-jammy systemd-logind[702]: New session 5 of user vagrant.
+Oct  1 16:43:05 ubuntu-jammy systemd-logind[702]: Session 5 logged out. Waiting for processes to exit.
+Oct  1 16:43:05 ubuntu-jammy systemd-logind[702]: Removed session 5.
+Oct  1 16:53:00 ubuntu-jammy systemd-logind[699]: New session 6 of user vagrant.
+Oct  1 16:53:31 ubuntu-jammy systemd-logind[699]: New session 8 of user vagrant.
+Oct  1 16:53:31 ubuntu-jammy systemd-logind[690]: New session 5 of user vagrant.
+Oct  1 16:53:31 ubuntu-jammy systemd-logind[702]: New session 7 of user vagrant.
+Oct  1 16:53:31 ubuntu-jammy systemd-logind[700]: New session 7 of user vagrant.
+Oct  1 16:55:10 ubuntu-jammy systemd-logind[699]: Session 8 logged out. Waiting for processes to exit.
+Oct  1 16:55:10 ubuntu-jammy systemd-logind[699]: Removed session 8.
+Oct  1 16:55:11 ubuntu-jammy systemd-logind[690]: Session 5 logged out. Waiting for processes to exit.
+Oct  1 16:55:11 ubuntu-jammy systemd-logind[700]: Session 7 logged out. Waiting for processes to exit.
+Oct  1 16:55:11 ubuntu-jammy systemd-logind[700]: Removed session 7.
+Oct  1 16:55:11 ubuntu-jammy systemd-logind[690]: Removed session 5.
+Oct  1 16:55:11 ubuntu-jammy systemd-logind[702]: Session 7 logged out. Waiting for processes to exit.
+Oct  1 16:55:11 ubuntu-jammy systemd-logind[702]: Removed session 7.
+Oct  1 16:57:07 ubuntu-jammy systemd-logind[699]: Session 6 logged out. Waiting for processes to exit.
+Oct  1 16:57:07 ubuntu-jammy systemd-logind[699]: Removed session 6.
+Oct  1 16:57:17 ubuntu-jammy systemd-logind[700]: New session 9 of user vagrant.
+Oct  1 17:02:13 ubuntu-jammy systemd-logind[700]: Session 9 logged out. Waiting for processes to exit.
+Oct  1 17:02:13 ubuntu-jammy systemd-logind[700]: Removed session 9.
+Oct  1 17:14:24 ubuntu-jammy systemd-logind[699]: New seat seat0.
+Oct  1 17:14:24 ubuntu-jammy systemd-logind[699]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  1 17:14:24 ubuntu-jammy systemd-logind[699]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct  1 17:14:24 ubuntu-jammy systemd-logind[699]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct  1 17:14:24 ubuntu-jammy systemd-logind[699]: New session 1 of user vagrant.
+Oct  1 17:15:06 ubuntu-jammy systemd-logind[703]: New seat seat0.
+Oct  1 17:15:06 ubuntu-jammy systemd-logind[703]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  1 17:15:06 ubuntu-jammy systemd-logind[703]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct  1 17:15:06 ubuntu-jammy systemd-logind[703]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct  1 17:15:06 ubuntu-jammy systemd-logind[703]: New session 1 of user vagrant.
+Oct  1 17:15:46 ubuntu-jammy systemd-logind[709]: New seat seat0.
+Oct  1 17:15:46 ubuntu-jammy systemd-logind[709]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  1 17:15:46 ubuntu-jammy systemd-logind[709]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct  1 17:15:46 ubuntu-jammy systemd-logind[709]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct  1 17:15:47 ubuntu-jammy systemd-logind[709]: New session 1 of user vagrant.
+Oct  1 17:16:29 ubuntu-jammy systemd-logind[686]: New seat seat0.
+Oct  1 17:16:29 ubuntu-jammy systemd-logind[686]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  1 17:16:29 ubuntu-jammy systemd-logind[686]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct  1 17:16:29 ubuntu-jammy systemd-logind[686]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct  1 17:16:29 ubuntu-jammy systemd-logind[686]: New session 1 of user vagrant.
+Oct  1 17:16:35 ubuntu-jammy systemd-logind[699]: Session 1 logged out. Waiting for processes to exit.
+Oct  1 17:16:35 ubuntu-jammy systemd-logind[709]: Session 1 logged out. Waiting for processes to exit.
+Oct  1 17:16:35 ubuntu-jammy systemd-logind[699]: Removed session 1.
+Oct  1 17:16:35 ubuntu-jammy systemd-logind[709]: Removed session 1.
+Oct  1 17:16:35 ubuntu-jammy systemd-logind[703]: Session 1 logged out. Waiting for processes to exit.
+Oct  1 17:16:36 ubuntu-jammy systemd-logind[703]: Removed session 1.
+Oct  1 17:33:19 ubuntu-jammy systemd-logind[703]: New session 4 of user vagrant.
+Oct  1 17:33:41 ubuntu-jammy systemd-logind[703]: Session 4 logged out. Waiting for processes to exit.
+Oct  1 17:33:41 ubuntu-jammy systemd-logind[703]: Removed session 4.
+Oct  1 17:33:50 ubuntu-jammy systemd-logind[709]: New session 4 of user vagrant.
+Oct  1 17:36:49 ubuntu-jammy systemd-logind[709]: Session 4 logged out. Waiting for processes to exit.
+Oct  1 17:36:49 ubuntu-jammy systemd-logind[709]: Removed session 4.
+Oct  1 17:37:04 ubuntu-jammy systemd-logind[686]: New session 4 of user vagrant.
+Oct  1 17:37:06 ubuntu-jammy systemd-logind[686]: System is powering down.
+Oct  1 17:37:11 ubuntu-jammy systemd-logind[709]: New session 6 of user vagrant.
+Oct  1 17:37:13 ubuntu-jammy systemd-logind[709]: System is powering down.
+Oct  1 17:37:18 ubuntu-jammy systemd-logind[703]: New session 6 of user vagrant.
+Oct  1 17:37:20 ubuntu-jammy systemd-logind[703]: System is powering down.
+Oct  1 17:37:27 ubuntu-jammy systemd-logind[699]: New session 4 of user vagrant.
+Oct  1 17:37:29 ubuntu-jammy systemd-logind[699]: System is powering down.

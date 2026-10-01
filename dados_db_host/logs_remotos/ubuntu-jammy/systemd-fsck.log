@@ -1,0 +1,2 @@
+Oct  1 17:14:24 ubuntu-jammy systemd-fsck[379]: cloudimg-rootfs: clean, 73630/5120000 files, 850659/10485499 blocks
+Oct  1 17:15:46 ubuntu-jammy systemd-fsck[378]: cloudimg-rootfs: clean, 74019/5120000 files, 864158/10485499 blocks

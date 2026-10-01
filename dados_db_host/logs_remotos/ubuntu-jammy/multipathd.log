@@ -1,0 +1,106 @@
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: --------start up--------
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: read /etc/multipath.conf
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: path checkers start up
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sda: failed to get udev uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sdb: failed to get udev uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sda: failed to get udev uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sda: failed to get path uid
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sdb: failed to get udev uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sdb: failed to get path uid
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sda: triggering change event to reinitialize
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sdb: triggering change event to reinitialize
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sdb: failed to get udev uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sdb: failed to get path uid
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sda: failed to get udev uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: sda: failed to get path uid
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:24 ubuntu-jammy multipathd[399]: burst continued 18446744073709460127 ms, too long time, stopped
+Oct  1 17:14:28 ubuntu-jammy multipathd[399]: sdb: triggering change event to reinitialize
+Oct  1 17:14:28 ubuntu-jammy multipathd[399]: sdb: failed to get udev uid: No data available
+Oct  1 17:14:28 ubuntu-jammy multipathd[399]: sdb: failed to get path uid
+Oct  1 17:14:28 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:29 ubuntu-jammy multipathd[399]: sda: triggering change event to reinitialize
+Oct  1 17:14:29 ubuntu-jammy multipathd[399]: sda: failed to get udev uid: No data available
+Oct  1 17:14:29 ubuntu-jammy multipathd[399]: sda: failed to get path uid
+Oct  1 17:14:29 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:38 ubuntu-jammy multipathd[399]: sdb: triggering change event to reinitialize
+Oct  1 17:14:38 ubuntu-jammy multipathd[399]: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:38 ubuntu-jammy multipathd[399]: sdb: failed to get sgio uid: No data available
+Oct  1 17:14:38 ubuntu-jammy multipathd[399]: sdb: failed to get path uid
+Oct  1 17:14:38 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:39 ubuntu-jammy multipathd[399]: sda: triggering change event to reinitialize
+Oct  1 17:14:39 ubuntu-jammy multipathd[399]: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:39 ubuntu-jammy multipathd[399]: sda: failed to get sgio uid: No data available
+Oct  1 17:14:39 ubuntu-jammy multipathd[399]: sda: failed to get path uid
+Oct  1 17:14:39 ubuntu-jammy multipathd[399]: uevent trigger error
+Oct  1 17:14:48 ubuntu-jammy multipathd[399]: sdb: not initialized after 3 udev retriggers
+Oct  1 17:14:49 ubuntu-jammy multipathd[399]: sda: not initialized after 3 udev retriggers
+Oct  1 17:14:49 ubuntu-jammy multipathd[399]: sdb: add missing path
+Oct  1 17:14:49 ubuntu-jammy multipathd[399]: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:49 ubuntu-jammy multipathd[399]: sdb: failed to get sgio uid: No data available
+Oct  1 17:14:49 ubuntu-jammy multipathd[399]: sdb: no WWID in state "undef
+Oct  1 17:14:49 ubuntu-jammy multipathd[399]: ", giving up
+Oct  1 17:14:49 ubuntu-jammy multipathd[399]: sdb: check_path() failed, removing
+Oct  1 17:14:50 ubuntu-jammy multipathd[399]: sda: add missing path
+Oct  1 17:14:50 ubuntu-jammy multipathd[399]: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:50 ubuntu-jammy multipathd[399]: sda: failed to get sgio uid: No data available
+Oct  1 17:14:50 ubuntu-jammy multipathd[399]: sda: no WWID in state "undef
+Oct  1 17:14:50 ubuntu-jammy multipathd[399]: ", giving up
+Oct  1 17:14:50 ubuntu-jammy multipathd[399]: sda: check_path() failed, removing
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: --------start up--------
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: read /etc/multipath.conf
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: path checkers start up
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sda: failed to get udev uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sdb: failed to get udev uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sdb: failed to get udev uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sdb: failed to get path uid
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: uevent trigger error
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sda: failed to get udev uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sda: failed to get path uid
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: uevent trigger error
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sda: triggering change event to reinitialize
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sdb: triggering change event to reinitialize
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sdb: failed to get udev uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sdb: failed to get path uid
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: uevent trigger error
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sda: failed to get udev uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: sda: failed to get path uid
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: uevent trigger error
+Oct  1 17:15:06 ubuntu-jammy multipathd[401]: burst continued 18446744073709459663 ms, too long time, stopped
+Oct  1 17:15:10 ubuntu-jammy multipathd[401]: sdb: triggering change event to reinitialize
+Oct  1 17:15:10 ubuntu-jammy multipathd[401]: sdb: failed to get udev uid: No data available
+Oct  1 17:15:10 ubuntu-jammy multipathd[401]: sdb: failed to get path uid
+Oct  1 17:15:10 ubuntu-jammy multipathd[401]: uevent trigger error
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: --------start up--------
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: read /etc/multipath.conf
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: path checkers start up
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sda: failed to get udev uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sdb: failed to get udev uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sdb: failed to get udev uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sdb: failed to get path uid
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: uevent trigger error
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sda: failed to get udev uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sda: failed to get path uid
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: uevent trigger error
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sda: triggering change event to reinitialize
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sdb: triggering change event to reinitialize
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sda: failed to get udev uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sda: failed to get path uid
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: uevent trigger error
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sdb: failed to get udev uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: sdb: failed to get path uid
+Oct  1 17:15:46 ubuntu-jammy multipathd[398]: uevent trigger error
+Oct  1 17:15:49 ubuntu-jammy multipathd[398]: burst continued 18446744073709462790 ms, too long time, stopped
+Oct  1 17:15:51 ubuntu-jammy multipathd[398]: sda: triggering change event to reinitialize
+Oct  1 17:15:51 ubuntu-jammy multipathd[398]: sdb: triggering change event to reinitialize
+Oct  1 17:15:51 ubuntu-jammy multipathd[398]: sda: failed to get udev uid: No data available
+Oct  1 17:15:51 ubuntu-jammy multipathd[398]: sda: failed to get path uid
+Oct  1 17:15:51 ubuntu-jammy multipathd[398]: uevent trigger error
+Oct  1 17:16:29 ubuntu-jammy multipathd[400]: --------start up--------
+Oct  1 17:16:29 ubuntu-jammy multipathd[400]: read /etc/multipath.conf
+Oct  1 17:16:29 ubuntu-jammy multipathd[400]: path checkers start up
+Oct  1 17:16:29 ubuntu-jammy multipathd[400]: sdb: failed to get udev uid: No data available
+Oct  1 17:16:29 ubuntu-jammy multipathd[400]: burst continued 18446744073709470374 ms, too long time, stopped

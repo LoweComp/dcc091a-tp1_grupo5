@@ -1,37 +1,4 @@
 ---
-# 1. DB: Servidor de Log e Persistência
-- hosts: db
-  become: yes
-  tasks:
-    - name: Garantir diretorio persistente para os logs
-      file:
-        path: /var/lib/dados_persistentes/logs_remotos
-        state: directory
-        mode: '0755'
-
-    - name: Permitir trafego Rsyslog na firewall (Porta 514 UDP)
-      ufw:
-        rule: allow
-        port: '514'
-        proto: udp
-
-    - name: Ativar rececao de logs e garantir persistencia
-      blockinfile:
-        path: /etc/rsyslog.conf
-        marker: "# {mark} ANSIBLE MANAGED BLOCK - RSYSLOG SERVER"
-        block: |
-          module(load="imudp")
-          input(type="imudp" port="514")
-          $template RemoteLogs,"/var/lib/dados_persistentes/logs_remotos/%HOSTNAME%/%PROGRAMNAME%.log"
-          *.* ?RemoteLogs
-      notify: Reiniciar Rsyslog
-
-  handlers:
-    - name: Reiniciar Rsyslog
-      service:
-        name: rsyslog
-        state: restarted
-
 - hosts: all
   become: yes
   tasks:
@@ -53,7 +20,6 @@
       apt:
         name: ufw
         state: present
-        update_cache: yes
 
     - name: Permitir conexoes SSH (Porta 22)
       ufw:
@@ -83,23 +49,6 @@
     - name: Reiniciar SSH
       service:
         name: ssh
-        state: restarted
-
-# 2. Clientes de Log
-- hosts: bastion, webservers
-  become: yes
-  tasks:
-    - name: Enviar logs para o servidor DB
-      lineinfile:
-        path: /etc/rsyslog.d/50-default.conf
-        line: "*.* @192.168.56.20:514"
-        insertafter: EOF
-      notify: Reiniciar Rsyslog
-
-  handlers:
-    - name: Reiniciar Rsyslog
-      service:
-        name: rsyslog
         state: restarted
 
 - hosts: webservers
@@ -149,8 +98,48 @@
         dest: /etc/nginx/sites-available/default
       notify: Reiniciar Nginx no Bastion
 
+# Preparando Bastion com Masquerade e IP-Fowarding 
+    - name: Habilitar IP Forwarding no kernel
+      sysctl:
+        name: net.ipv4.ip_forward
+        value: '1'
+        sysctl_set: yes
+        state: present
+        reload: yes
+
+    - name: Permitir roteamento (FORWARD) na firewall UFW
+      lineinfile:
+        path: /etc/default/ufw
+        regexp: '^DEFAULT_FORWARD_POLICY='
+        line: 'DEFAULT_FORWARD_POLICY="ACCEPT"'
+      notify: Reiniciar UFW
+
+    - name: Configurar Masquerade na interface de saida correta (enp0s3)
+      iptables:
+        table: nat
+        chain: POSTROUTING
+        out_interface: enp0s3
+        jump: MASQUERADE
+
   handlers:
     - name: Reiniciar Nginx no Bastion
       service:
         name: nginx
-        state: restarted               
+        state: restarted
+        
+    - name: Reiniciar UFW
+      service:
+        name: ufw
+        state: restarted
+
+# REDE INTERNA: Trafego obrigatorio pelo Bastion
+- hosts: webservers, db
+  become: yes
+  tasks:
+    - name: Remover rota padrao na interface nativa do Vagrant
+      command: ip route del default
+      ignore_errors: yes
+
+    - name: Definir Bastion como novo Gateway padrao
+      command: ip route add default via 192.168.56.10
+      ignore_errors: yes

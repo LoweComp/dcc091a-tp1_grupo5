@@ -1,0 +1,41 @@
+Oct  1 17:14:24 ubuntu-jammy snapd[697]: overlord.go:313: Acquiring state lock file
+Oct  1 17:14:24 ubuntu-jammy snapd[697]: overlord.go:318: Acquired state lock file
+Oct  1 17:14:24 ubuntu-jammy snapd[697]: daemon.go:277: started snapd/2.76.3+ubuntu22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-191-generic.
+Oct  1 17:14:24 ubuntu-jammy snapd[697]: daemon.go:371: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Oct  1 17:14:24 ubuntu-jammy snapd[697]: backends.go:70: AppArmor status: apparmor is enabled and all features are available
+Oct  1 17:14:24 ubuntu-jammy snapd[697]: backend.go:145: reloading profiles for snap-confine
+Oct  1 17:14:25 ubuntu-jammy snapd[697]: standby.go:95: will consider standby after: 5s
+Oct  1 17:14:27 ubuntu-jammy snapd[697]: snapmgr.go:1675: performing periodic snap downloads cache cleanup
+Oct  1 17:14:27 ubuntu-jammy snapd[697]: snapmgr.go:1685: cannot clean store downloads cache: open /var/lib/snapd/cache: no such file or directory
+Oct  1 17:14:27 ubuntu-jammy snapd[697]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting
+Oct  1 17:15:06 ubuntu-jammy snapd[701]: overlord.go:313: Acquiring state lock file
+Oct  1 17:15:06 ubuntu-jammy snapd[701]: overlord.go:318: Acquired state lock file
+Oct  1 17:15:06 ubuntu-jammy snapd[701]: daemon.go:277: started snapd/2.76.3+ubuntu22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-194-generic.
+Oct  1 17:15:06 ubuntu-jammy snapd[701]: daemon.go:371: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Oct  1 17:15:06 ubuntu-jammy snapd[701]: backends.go:70: AppArmor status: apparmor is enabled and all features are available
+Oct  1 17:15:06 ubuntu-jammy snapd[701]: backend.go:145: reloading profiles for snap-confine
+Oct  1 17:15:07 ubuntu-jammy snapd[701]: standby.go:95: will consider standby after: 5s
+Oct  1 17:15:07 ubuntu-jammy snapd[701]: snapmgr.go:1675: performing periodic snap downloads cache cleanup
+Oct  1 17:15:07 ubuntu-jammy snapd[701]: snapmgr.go:1685: cannot clean store downloads cache: open /var/lib/snapd/cache: no such file or directory
+Oct  1 17:15:07 ubuntu-jammy snapd[701]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: seclog.go:107: security logger enabled
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: overlord.go:316: Acquiring state lock file
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: overlord.go:321: Acquired state lock file
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: daemon.go:277: started snapd/2.77.1 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-191-generic.
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: daemon.go:371: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: backends.go:70: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor_parser)
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: backend.go:141: delegating reload of snap-confine profiles to system snap security profiles setup
+Oct  1 17:15:49 ubuntu-jammy snapd[706]: standby.go:95: will consider standby after: 5s
+Oct  1 17:15:51 ubuntu-jammy snapd[706]: snapmgr.go:1675: performing periodic snap downloads cache cleanup
+Oct  1 17:15:51 ubuntu-jammy snapd[706]: cache.go:320: removed 0 entries/    0 from downloads cache
+Oct  1 17:15:51 ubuntu-jammy snapd[706]: autorepair.go:320: WARNING: the system booted with an old initrd without unlocked status reporting
+Oct  1 17:16:29 ubuntu-jammy snapd[683]: overlord.go:313: Acquiring state lock file
+Oct  1 17:16:29 ubuntu-jammy snapd[683]: overlord.go:318: Acquired state lock file
+Oct  1 17:16:29 ubuntu-jammy snapd[683]: daemon.go:277: started snapd/2.76.3+ubuntu22.04 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-194-generic.
+Oct  1 17:16:29 ubuntu-jammy snapd[683]: daemon.go:371: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Oct  1 17:16:29 ubuntu-jammy snapd[683]: backends.go:70: AppArmor status: apparmor is enabled and all features are available
+Oct  1 17:16:29 ubuntu-jammy snapd[683]: backend.go:145: reloading profiles for snap-confine
+Oct  1 17:16:30 ubuntu-jammy snapd[683]: standby.go:95: will consider standby after: 5s
+Oct  1 17:16:32 ubuntu-jammy snapd[683]: snapmgr.go:1675: performing periodic snap downloads cache cleanup
+Oct  1 17:16:32 ubuntu-jammy snapd[683]: cache.go:320: removed 0 entries/    0 from downloads cache
+Oct  1 17:16:32 ubuntu-jammy snapd[683]: autorepair.go:177: WARNING: the system booted with an old initrd without unlocked status reporting

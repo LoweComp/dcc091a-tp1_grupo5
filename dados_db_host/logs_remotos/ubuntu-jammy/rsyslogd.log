@@ -27,3 +27,22 @@ Oct  1 16:36:59 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/syst
 Oct  1 16:36:59 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
 Oct  1 16:36:59 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
 Oct  1 16:36:59 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="11022" x-info="https://www.rsyslog.com"] start
+Oct  1 17:14:24 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 17:14:24 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 17:14:24 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 17:14:24 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="694" x-info="https://www.rsyslog.com"] start
+Oct  1 17:15:06 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 17:15:06 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 17:15:06 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 17:15:06 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="698" x-info="https://www.rsyslog.com"] start
+Oct  1 17:15:46 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 17:15:46 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 17:15:46 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 17:15:46 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="703" x-info="https://www.rsyslog.com"] start
+Oct  1 17:15:53 ubuntu-jammy rsyslogd: action 'action-8-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2112.0 try https://www.rsyslog.com/e/2359 ]
+Oct  1 17:16:29 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 17:16:29 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 17:16:29 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 17:16:29 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="680" x-info="https://www.rsyslog.com"] start
+Oct  1 17:16:35 ubuntu-jammy rsyslogd: action 'action-8-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2112.0 try https://www.rsyslog.com/e/2359 ]
+Oct  1 17:21:21 ubuntu-jammy rsyslogd: action 'action-8-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2112.0 try https://www.rsyslog.com/e/2359 ]

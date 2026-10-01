@@ -1,0 +1,12 @@
+Oct  1 17:14:24 ubuntu-jammy apparmor.systemd[424]: Restarting AppArmor
+Oct  1 17:14:24 ubuntu-jammy apparmor.systemd[424]: Reloading AppArmor profiles
+Oct  1 17:14:24 ubuntu-jammy apparmor.systemd[461]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  1 17:15:06 ubuntu-jammy apparmor.systemd[426]: Restarting AppArmor
+Oct  1 17:15:06 ubuntu-jammy apparmor.systemd[426]: Reloading AppArmor profiles
+Oct  1 17:15:06 ubuntu-jammy apparmor.systemd[461]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  1 17:15:46 ubuntu-jammy apparmor.systemd[414]: Restarting AppArmor
+Oct  1 17:15:46 ubuntu-jammy apparmor.systemd[414]: Reloading AppArmor profiles
+Oct  1 17:15:46 ubuntu-jammy apparmor.systemd[473]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  1 17:16:29 ubuntu-jammy apparmor.systemd[427]: Restarting AppArmor
+Oct  1 17:16:29 ubuntu-jammy apparmor.systemd[427]: Reloading AppArmor profiles
+Oct  1 17:16:29 ubuntu-jammy apparmor.systemd[455]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd

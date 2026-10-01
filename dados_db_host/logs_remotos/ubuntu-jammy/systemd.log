@@ -271,3 +271,1691 @@ Oct  1 16:41:07 ubuntu-jammy systemd[3119]: Reached target Main User Target.
 Oct  1 16:41:07 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
 Oct  1 16:41:07 ubuntu-jammy systemd[3119]: Startup finished in 97ms.
 Oct  1 16:41:07 ubuntu-jammy systemd[1]: Started Session 5 of User vagrant.
+Oct  1 16:43:05 ubuntu-jammy systemd[1]: session-5.scope: Deactivated successfully.
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Stopped target Main User Target.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Stopped target Basic System.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Stopped target Paths.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Stopped target Sockets.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Stopped target Timers.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed D-Bus User Message Bus Socket.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed GnuPG network certificate management daemon.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed debconf communication socket.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Closed REST API socket for snapd user session agent.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Removed slice User Application Slice.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Reached target Shutdown.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Finished Exit the Session.
+Oct  1 16:43:15 ubuntu-jammy systemd[3119]: Reached target Exit the Session.
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 16:43:15 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 16:46:22 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 16:46:22 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 16:46:22 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 16:46:45 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 16:46:45 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 16:46:45 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 16:47:52 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 16:47:52 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 16:47:52 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 16:48:23 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 16:48:23 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 16:48:23 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 16:50:38 ubuntu-jammy systemd[1]: Starting Message of the Day...
+Oct  1 16:50:39 ubuntu-jammy systemd[1]: motd-news.service: Deactivated successfully.
+Oct  1 16:50:39 ubuntu-jammy systemd[1]: Finished Message of the Day.
+Oct  1 16:53:00 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 16:53:00 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 16:53:00 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 16:53:00 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 16:53:00 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Queued start job for default target Main User Target.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Created slice User Application Slice.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Reached target Paths.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Reached target Timers.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Starting D-Bus User Message Bus Socket...
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on GnuPG network certificate management daemon.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on debconf communication socket.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on REST API socket for snapd user session agent.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Listening on D-Bus User Message Bus Socket.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Reached target Sockets.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Reached target Basic System.
+Oct  1 16:53:00 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 16:53:00 ubuntu-jammy systemd[1]: Started Session 6 of User vagrant.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Reached target Main User Target.
+Oct  1 16:53:00 ubuntu-jammy systemd[4128]: Startup finished in 102ms.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Started Session 8 of User vagrant.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 16:53:31 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 16:53:31 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Queued start job for default target Main User Target.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Created slice User Application Slice.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Reached target Paths.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Reached target Timers.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Starting D-Bus User Message Bus Socket...
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on GnuPG network certificate management daemon.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on debconf communication socket.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on REST API socket for snapd user session agent.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Queued start job for default target Main User Target.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Created slice User Application Slice.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Reached target Paths.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Reached target Timers.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Listening on D-Bus User Message Bus Socket.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Reached target Sockets.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Reached target Basic System.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Starting D-Bus User Message Bus Socket...
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on GnuPG network certificate management daemon.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on debconf communication socket.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on REST API socket for snapd user session agent.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Started Session 5 of User vagrant.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Reached target Main User Target.
+Oct  1 16:53:31 ubuntu-jammy systemd[11718]: Startup finished in 108ms.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Listening on D-Bus User Message Bus Socket.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Reached target Sockets.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Reached target Basic System.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Reached target Main User Target.
+Oct  1 16:53:31 ubuntu-jammy systemd[3210]: Startup finished in 107ms.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Started Session 7 of User vagrant.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 16:53:31 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Queued start job for default target Main User Target.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Created slice User Application Slice.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Reached target Paths.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Reached target Timers.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Starting D-Bus User Message Bus Socket...
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on GnuPG network certificate management daemon.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on debconf communication socket.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on REST API socket for snapd user session agent.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Listening on D-Bus User Message Bus Socket.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Reached target Sockets.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Reached target Basic System.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Reached target Main User Target.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 16:53:31 ubuntu-jammy systemd[4016]: Startup finished in 110ms.
+Oct  1 16:53:31 ubuntu-jammy systemd[1]: Started Session 7 of User vagrant.
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: Starting Update APT News...
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: Starting Update the local ESM caches...
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: Starting Update APT News...
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: Starting Update the local ESM caches...
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: apt-news.service: Deactivated successfully.
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: Finished Update APT News.
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: apt-news.service: Deactivated successfully.
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: Finished Update APT News.
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: esm-cache.service: Deactivated successfully.
+Oct  1 16:53:44 ubuntu-jammy systemd[1]: Finished Update the local ESM caches.
+Oct  1 16:53:45 ubuntu-jammy systemd[1]: esm-cache.service: Deactivated successfully.
+Oct  1 16:53:45 ubuntu-jammy systemd[1]: Finished Update the local ESM caches.
+Oct  1 16:54:06 ubuntu-jammy systemd[1]: Starting Update APT News...
+Oct  1 16:54:06 ubuntu-jammy systemd[1]: Starting Update the local ESM caches...
+Oct  1 16:54:06 ubuntu-jammy systemd[1]: apt-news.service: Deactivated successfully.
+Oct  1 16:54:06 ubuntu-jammy systemd[1]: Finished Update APT News.
+Oct  1 16:54:08 ubuntu-jammy systemd[1]: esm-cache.service: Deactivated successfully.
+Oct  1 16:54:08 ubuntu-jammy systemd[1]: Finished Update the local ESM caches.
+Oct  1 16:55:10 ubuntu-jammy systemd[1]: session-8.scope: Deactivated successfully.
+Oct  1 16:55:10 ubuntu-jammy systemd[1]: session-8.scope: Consumed 8.431s CPU time.
+Oct  1 16:55:11 ubuntu-jammy systemd[1]: session-5.scope: Deactivated successfully.
+Oct  1 16:55:11 ubuntu-jammy systemd[1]: session-5.scope: Consumed 9.484s CPU time.
+Oct  1 16:55:11 ubuntu-jammy systemd[1]: session-7.scope: Deactivated successfully.
+Oct  1 16:55:11 ubuntu-jammy systemd[1]: session-7.scope: Deactivated successfully.
+Oct  1 16:55:11 ubuntu-jammy systemd[1]: session-7.scope: Consumed 9.531s CPU time.
+Oct  1 16:55:11 ubuntu-jammy systemd[1]: session-7.scope: Consumed 6.310s CPU time.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Stopped target Main User Target.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Stopped target Basic System.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Stopped target Paths.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Stopped target Sockets.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Stopped target Timers.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed D-Bus User Message Bus Socket.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed GnuPG network certificate management daemon.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed debconf communication socket.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Closed REST API socket for snapd user session agent.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Removed slice User Application Slice.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Reached target Shutdown.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Finished Exit the Session.
+Oct  1 16:55:21 ubuntu-jammy systemd[11718]: Reached target Exit the Session.
+Oct  1 16:55:21 ubuntu-jammy systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user-1000.slice: Consumed 9.608s CPU time.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Stopped target Main User Target.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Stopped target Basic System.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Stopped target Paths.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Stopped target Sockets.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Stopped target Timers.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed D-Bus User Message Bus Socket.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed GnuPG network certificate management daemon.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed debconf communication socket.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Closed REST API socket for snapd user session agent.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Removed slice User Application Slice.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Reached target Shutdown.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Finished Exit the Session.
+Oct  1 16:55:21 ubuntu-jammy systemd[4016]: Reached target Exit the Session.
+Oct  1 16:55:21 ubuntu-jammy systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user-1000.slice: Consumed 9.663s CPU time.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Stopped target Main User Target.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Stopped target Basic System.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Stopped target Paths.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Stopped target Sockets.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Stopped target Timers.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed D-Bus User Message Bus Socket.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed GnuPG network certificate management daemon.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed debconf communication socket.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Closed REST API socket for snapd user session agent.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Removed slice User Application Slice.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Reached target Shutdown.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Finished Exit the Session.
+Oct  1 16:55:21 ubuntu-jammy systemd[3210]: Reached target Exit the Session.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 16:55:21 ubuntu-jammy systemd[1]: user-1000.slice: Consumed 6.436s CPU time.
+Oct  1 16:57:07 ubuntu-jammy systemd[1]: session-6.scope: Deactivated successfully.
+Oct  1 16:57:07 ubuntu-jammy systemd[1]: session-6.scope: Consumed 10.074s CPU time.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 16:57:17 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Queued start job for default target Main User Target.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Created slice User Application Slice.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Reached target Paths.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Reached target Timers.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Starting D-Bus User Message Bus Socket...
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on GnuPG network certificate management daemon.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on debconf communication socket.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on REST API socket for snapd user session agent.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Listening on D-Bus User Message Bus Socket.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Reached target Sockets.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Reached target Basic System.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Started Session 9 of User vagrant.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Reached target Main User Target.
+Oct  1 16:57:17 ubuntu-jammy systemd[5597]: Startup finished in 102ms.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Stopped target Main User Target.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Stopped target Basic System.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Stopped target Paths.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Stopped target Sockets.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Stopped target Timers.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed D-Bus User Message Bus Socket.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed GnuPG network certificate management daemon.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed debconf communication socket.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Closed REST API socket for snapd user session agent.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Removed slice User Application Slice.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Reached target Shutdown.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Finished Exit the Session.
+Oct  1 16:57:17 ubuntu-jammy systemd[4128]: Reached target Exit the Session.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 16:57:17 ubuntu-jammy systemd[1]: user-1000.slice: Consumed 18.619s CPU time.
+Oct  1 16:58:45 ubuntu-jammy systemd[1]: Starting Daily apt upgrade and clean activities...
+Oct  1 16:59:27 ubuntu-jammy systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+Oct  1 16:59:27 ubuntu-jammy systemd[1]: fstrim.service: Deactivated successfully.
+Oct  1 16:59:27 ubuntu-jammy systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+Oct  1 17:02:13 ubuntu-jammy systemd[1]: session-9.scope: Deactivated successfully.
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Stopped target Main User Target.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Stopped target Basic System.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Stopped target Paths.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Stopped target Sockets.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Stopped target Timers.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed D-Bus User Message Bus Socket.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed GnuPG network certificate management daemon.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed debconf communication socket.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Closed REST API socket for snapd user session agent.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Removed slice User Application Slice.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Reached target Shutdown.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Finished Exit the Session.
+Oct  1 17:02:23 ubuntu-jammy systemd[5597]: Reached target Exit the Session.
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 17:02:23 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 17:05:42 ubuntu-jammy systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Huge Pages File System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted POSIX Message Queue File System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Kernel Debug File System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Kernel Trace File System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Create List of Static Device Nodes.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load Kernel Module configfs.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: modprobe@drm.service: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load Kernel Module drm.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load Kernel Module efi_pstore.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load Kernel Module fuse.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load Kernel Modules.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting FUSE Control File System...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting Kernel Configuration File System...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started File System Check Daemon to report status.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Apply Kernel Variables...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted FUSE Control File System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Kernel Configuration File System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Set the console keyboard layout.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished File System Check on Root Device.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Apply Kernel Variables.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Coldplug All udev Devices.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Remount Root and Kernel File Systems.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Device-Mapper Multipath Device Controller...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Load/Save Random Seed...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Create System Users...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load/Save Random Seed.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Create System Users.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Flush Journal to Persistent Storage.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Create Static Device Nodes in /dev.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Device-Mapper Multipath Device Controller.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Preparation for Local File Systems.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting Mount unit for core22, revision 2955...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting Mount unit for lxd, revision 40575...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting Mount unit for snapd, revision 27738...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Mount unit for lxd, revision 40575.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Mount unit for snapd, revision 27738.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Mount unit for core22, revision 2955.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Mounted snaps.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Local File Systems.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Set console font and keymap...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Set Up Additional Binary Formats...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Create Volatile Files and Directories...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Uncomplicated firewall...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Rule-based Manager for Device Events and Files.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Set console font and keymap.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 432 (systemd-binfmt)
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Local Encrypted Volumes.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Set Up Additional Binary Formats.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Create Volatile Files and Directories.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Network Time Synchronization...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Network Time Synchronization.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load AppArmor profiles.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target System Time Set.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Cloud-init: Local Stage (pre-network)...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Found device /dev/ttyS0.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Uncomplicated firewall.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: run-cloud\x2dinit-tmp-tmp7kk2rn9k.mount: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Cloud-init: Local Stage (pre-network).
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Preparation for Network.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Network Configuration...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Network Configuration.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Wait for Network to be Configured...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Network Name Resolution...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Network Name Resolution.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Network.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Host and Network Name Lookups.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Wait for Network to be Configured.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Cloud-init: Network Stage...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Cloud-init: Network Stage.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Cloud-config availability.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Network is Online.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target System Initialization.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Daily apt download activities.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Daily dpkg database backup timer.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Discard unused blocks once a week.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Daily rotation of log files.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Daily man-db regeneration.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Message of the Day.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Timer for running repeated jobs being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Download data for packages that failed at package install time.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Path Units.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Timer Units.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on cloud-init hotplug hook socket.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Socket activation for snappy daemon...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on UUID daemon activation socket.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Preparation for Remote File Systems.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting /vagrant...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounting /var/lib/dados_persistentes...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Availability of block devices.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Listening on Socket activation for snappy daemon.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Socket Units.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Basic System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started D-Bus System Message Bus.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Save initial kernel messages after boot.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Record successful boot for GRUB...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started irqbalance daemon.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting System Logging Service...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Service for snap application lxd.activate...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Preparation for Logins.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Wait until snapd is fully seeded...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Snap Daemon...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting User Login Management...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro reboot cmds being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted /vagrant.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Mounted /var/lib/dados_persistentes.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Remote File Systems.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting LSB: automatic crash report generation...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Regular background program processing daemon.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Permit User Sessions...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Permit User Sessions.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Hold until boot process finishes up...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Hold until boot process finishes up.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Serial Getty on ttyS0.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting Set console scheme...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Terminate Plymouth Boot Screen.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Set console scheme.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: grub-common.service: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Record successful boot for GRUB.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Created slice Slice /system/getty.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Getty on tty1.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Reached target Login Prompts.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting GRUB failed boot detection...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished GRUB failed boot detection.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started User Login Management.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Unattended Upgrades Shutdown.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started System Logging Service.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started LSB: automatic crash report generation.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started OpenBSD Secure Shell server.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:14:24 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: tmp-snap\x2dprivate\x2dtmp-snap.rootfs_yjipFm.mount: Deactivated successfully.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Queued start job for default target Main User Target.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Created slice User Application Slice.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Reached target Paths.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Reached target Timers.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on debconf communication socket.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Reached target Sockets.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Reached target Basic System.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Reached target Main User Target.
+Oct  1 17:14:24 ubuntu-jammy systemd[766]: Startup finished in 192ms.
+Oct  1 17:14:24 ubuntu-jammy systemd[1]: Started Session 1 of User vagrant.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Started Snap Daemon.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Starting Time & Date Service...
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Started Time & Date Service.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Finished Wait until snapd is fully seeded.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Starting Cloud-init: Config Stage...
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Finished Service for snap application lxd.activate.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Reached target Multi-User System.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Reached target Graphical Interface.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Starting Record Runlevel Change in UTMP...
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Oct  1 17:14:25 ubuntu-jammy systemd[1]: Finished Record Runlevel Change in UTMP.
+Oct  1 17:14:26 ubuntu-jammy systemd[1]: Finished Cloud-init: Config Stage.
+Oct  1 17:14:26 ubuntu-jammy systemd[1]: Starting Cloud-init: Final Stage...
+Oct  1 17:14:26 ubuntu-jammy systemd[1]: Finished Cloud-init: Final Stage.
+Oct  1 17:14:26 ubuntu-jammy systemd[1]: Reached target Cloud-init target.
+Oct  1 17:14:26 ubuntu-jammy systemd[1]: Startup finished in 3.289s (kernel) + 19.799s (userspace) = 23.088s.
+Oct  1 17:14:26 ubuntu-jammy systemd[1]: dmesg.service: Deactivated successfully.
+Oct  1 17:14:29 ubuntu-jammy systemd[1]: Reloading.
+Oct  1 17:14:29 ubuntu-jammy systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Oct  1 17:14:29 ubuntu-jammy systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+Oct  1 17:14:29 ubuntu-jammy systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+Oct  1 17:14:37 ubuntu-jammy systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Oct  1 17:14:55 ubuntu-jammy systemd[1]: systemd-timedated.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Huge Pages File System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted POSIX Message Queue File System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Kernel Debug File System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Kernel Trace File System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Set the console keyboard layout.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Create List of Static Device Nodes.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load Kernel Module configfs.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: modprobe@drm.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load Kernel Module drm.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load Kernel Module efi_pstore.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load Kernel Module fuse.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load Kernel Modules.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Remount Root and Kernel File Systems.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting FUSE Control File System...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting Kernel Configuration File System...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Device-Mapper Multipath Device Controller...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Load/Save Random Seed...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Apply Kernel Variables...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Create System Users...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted FUSE Control File System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Kernel Configuration File System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load/Save Random Seed.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Coldplug All udev Devices.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Apply Kernel Variables.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Create System Users.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Flush Journal to Persistent Storage.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Create Static Device Nodes in /dev.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Device-Mapper Multipath Device Controller.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Preparation for Local File Systems.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting Mount unit for core22, revision 2955...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting Mount unit for lxd, revision 40575...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting Mount unit for snapd, revision 27738...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Mount unit for core22, revision 2955.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Mount unit for lxd, revision 40575.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Mount unit for snapd, revision 27738.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Mounted snaps.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Local File Systems.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Set console font and keymap...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Set Up Additional Binary Formats...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Create Volatile Files and Directories...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Uncomplicated firewall...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Rule-based Manager for Device Events and Files.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Set console font and keymap.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 437 (systemd-binfmt)
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Local Encrypted Volumes.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Set Up Additional Binary Formats.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Create Volatile Files and Directories.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Network Time Synchronization...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load AppArmor profiles.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Cloud-init: Local Stage (pre-network)...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Network Time Synchronization.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target System Time Set.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Found device /dev/ttyS0.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Uncomplicated firewall.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: run-cloud\x2dinit-tmp-tmp8thv_k6j.mount: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Cloud-init: Local Stage (pre-network).
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Preparation for Network.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Network Configuration...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Network Configuration.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Wait for Network to be Configured...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Network Name Resolution...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Network Name Resolution.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Network.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Host and Network Name Lookups.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Wait for Network to be Configured.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Cloud-init: Network Stage...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Cloud-init: Network Stage.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Cloud-config availability.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Network is Online.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target System Initialization.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Daily apt download activities.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Daily dpkg database backup timer.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Discard unused blocks once a week.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Daily rotation of log files.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Daily man-db regeneration.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Message of the Day.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Timer for running repeated jobs being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Download data for packages that failed at package install time.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Path Units.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Timer Units.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on cloud-init hotplug hook socket.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Socket activation for snappy daemon...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on UUID daemon activation socket.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Preparation for Remote File Systems.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting /home/vagrant/ansible...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounting /vagrant...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Availability of block devices.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Listening on Socket activation for snappy daemon.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Socket Units.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Basic System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started D-Bus System Message Bus.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Save initial kernel messages after boot.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Record successful boot for GRUB...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started irqbalance daemon.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting A high performance web server and a reverse proxy server...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting System Logging Service...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Service for snap application lxd.activate...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Preparation for Logins.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Wait until snapd is fully seeded...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Snap Daemon...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting User Login Management...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro reboot cmds being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted /home/vagrant/ansible.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Mounted /vagrant.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Remote File Systems.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting LSB: automatic crash report generation...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Regular background program processing daemon.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Permit User Sessions...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Permit User Sessions.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Hold until boot process finishes up...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Hold until boot process finishes up.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Serial Getty on ttyS0.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting Set console scheme...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Terminate Plymouth Boot Screen.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: grub-common.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Record successful boot for GRUB.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting GRUB failed boot detection...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished GRUB failed boot detection.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Set console scheme.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Created slice Slice /system/getty.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Getty on tty1.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Reached target Login Prompts.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started System Logging Service.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started User Login Management.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Unattended Upgrades Shutdown.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started LSB: automatic crash report generation.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started OpenBSD Secure Shell server.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:15:06 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started A high performance web server and a reverse proxy server.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Queued start job for default target Main User Target.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Created slice User Application Slice.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Reached target Paths.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Reached target Timers.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on debconf communication socket.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Reached target Sockets.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Reached target Basic System.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Reached target Main User Target.
+Oct  1 17:15:06 ubuntu-jammy systemd[768]: Startup finished in 182ms.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: Started Session 1 of User vagrant.
+Oct  1 17:15:06 ubuntu-jammy systemd[1]: tmp-snap\x2dprivate\x2dtmp-snap.rootfs_QnwDuV.mount: Deactivated successfully.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Started Snap Daemon.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Starting Time & Date Service...
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Started Time & Date Service.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Finished Wait until snapd is fully seeded.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Starting Cloud-init: Config Stage...
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Finished Service for snap application lxd.activate.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Reached target Multi-User System.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Reached target Graphical Interface.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Starting Record Runlevel Change in UTMP...
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Oct  1 17:15:07 ubuntu-jammy systemd[1]: Finished Record Runlevel Change in UTMP.
+Oct  1 17:15:08 ubuntu-jammy systemd[1]: Finished Cloud-init: Config Stage.
+Oct  1 17:15:08 ubuntu-jammy systemd[1]: Starting Cloud-init: Final Stage...
+Oct  1 17:15:08 ubuntu-jammy systemd[1]: Finished Cloud-init: Final Stage.
+Oct  1 17:15:08 ubuntu-jammy systemd[1]: Reached target Cloud-init target.
+Oct  1 17:15:08 ubuntu-jammy systemd[1]: Startup finished in 3.422s (kernel) + 20.535s (userspace) = 23.958s.
+Oct  1 17:15:08 ubuntu-jammy systemd[1]: dmesg.service: Deactivated successfully.
+Oct  1 17:15:11 ubuntu-jammy systemd[1]: Reloading.
+Oct  1 17:15:11 ubuntu-jammy systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Oct  1 17:15:11 ubuntu-jammy systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted FUSE Control File System.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted Kernel Configuration File System.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished File System Check on Root Device.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Apply Kernel Variables.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Remount Root and Kernel File Systems.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Device-Mapper Multipath Device Controller...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Load/Save Random Seed...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Create System Users...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Load/Save Random Seed.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Coldplug All udev Devices.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Set the console keyboard layout.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Create System Users.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Flush Journal to Persistent Storage.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Create Static Device Nodes in /dev.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Device-Mapper Multipath Device Controller.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Preparation for Local File Systems.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounting Mount unit for core22, revision 2955...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounting Mount unit for lxd, revision 40575...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounting Mount unit for snapd, revision 27738...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounting Mount unit for snapd, revision 28254...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted Mount unit for core22, revision 2955.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted Mount unit for lxd, revision 40575.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted Mount unit for snapd, revision 28254.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted Mount unit for snapd, revision 27738.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Mounted snaps.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Local File Systems.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Set console font and keymap...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Set Up Additional Binary Formats...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Create Volatile Files and Directories...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Uncomplicated firewall...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 422 (systemd-binfmt)
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Set console font and keymap.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Set Up Additional Binary Formats.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Create Volatile Files and Directories.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Network Time Synchronization...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Rule-based Manager for Device Events and Files.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Local Encrypted Volumes.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Network Time Synchronization.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target System Time Set.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Load AppArmor profiles.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Cloud-init: Local Stage (pre-network)...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Found device /dev/ttyS0.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Uncomplicated firewall.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Network Name Resolution.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Network.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Host and Network Name Lookups.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Wait for Network to be Configured.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Cloud-init: Network Stage...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Cloud-init: Network Stage.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Cloud-config availability.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Network is Online.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target System Initialization.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Daily apt download activities.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Daily dpkg database backup timer.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Discard unused blocks once a week.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Daily rotation of log files.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Daily man-db regeneration.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Message of the Day.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Timer for running repeated jobs being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Download data for packages that failed at package install time.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Path Units.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Timer Units.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on cloud-init hotplug hook socket.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Socket activation for snappy daemon...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on UUID daemon activation socket.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Preparation for Remote File Systems.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounting /vagrant...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Availability of block devices.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Listening on Socket activation for snappy daemon.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Socket Units.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Basic System.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started D-Bus System Message Bus.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Save initial kernel messages after boot.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Record successful boot for GRUB...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started irqbalance daemon.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting A high performance web server and a reverse proxy server...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting System Logging Service...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Service for snap application lxd.activate...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Preparation for Logins.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Wait until snapd is fully seeded...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Snap Daemon...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting User Login Management...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro reboot cmds being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Mounted /vagrant.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Remote File Systems.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting LSB: automatic crash report generation...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Regular background program processing daemon.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Permit User Sessions...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Permit User Sessions.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Hold until boot process finishes up...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Hold until boot process finishes up.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Serial Getty on ttyS0.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting Set console scheme...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Terminate Plymouth Boot Screen.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Set console scheme.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Created slice Slice /system/getty.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Getty on tty1.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Reached target Login Prompts.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: grub-common.service: Deactivated successfully.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Record successful boot for GRUB.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Starting GRUB failed boot detection...
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Finished GRUB failed boot detection.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started System Logging Service.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started User Login Management.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started Unattended Upgrades Shutdown.
+Oct  1 17:15:46 ubuntu-jammy systemd[1]: Started LSB: automatic crash report generation.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Started OpenBSD Secure Shell server.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Started A high performance web server and a reverse proxy server.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:15:47 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Queued start job for default target Main User Target.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Created slice User Application Slice.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Reached target Paths.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Reached target Timers.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on debconf communication socket.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Reached target Sockets.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Reached target Basic System.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:15:47 ubuntu-jammy systemd[1]: Started Session 1 of User vagrant.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Reached target Main User Target.
+Oct  1 17:15:47 ubuntu-jammy systemd[778]: Startup finished in 176ms.
+Oct  1 17:15:49 ubuntu-jammy systemd[1]: tmp-syscheck\x2dmountpoint\x2d2078059805.mount: Deactivated successfully.
+Oct  1 17:15:49 ubuntu-jammy systemd[1]: Started Snap Daemon.
+Oct  1 17:15:49 ubuntu-jammy systemd[1]: Starting Time & Date Service...
+Oct  1 17:15:49 ubuntu-jammy systemd[1]: Started Time & Date Service.
+Oct  1 17:15:49 ubuntu-jammy systemd[1]: Finished Wait until snapd is fully seeded.
+Oct  1 17:15:49 ubuntu-jammy systemd[1]: Starting Cloud-init: Config Stage...
+Oct  1 17:15:49 ubuntu-jammy systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Finished Cloud-init: Config Stage.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: tmp-snap\x2dprivate\x2dtmp-snap.rootfs_S7prom.mount: Deactivated successfully.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Finished Service for snap application lxd.activate.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: snap.lxd.activate.service: Consumed 1.224s CPU time.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Reached target Multi-User System.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Reached target Graphical Interface.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Starting Cloud-init: Final Stage...
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Starting Record Runlevel Change in UTMP...
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Finished Record Runlevel Change in UTMP.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Finished Cloud-init: Final Stage.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Reached target Cloud-init target.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: Startup finished in 3.077s (kernel) + 21.293s (userspace) = 24.371s.
+Oct  1 17:15:50 ubuntu-jammy systemd[1]: dmesg.service: Deactivated successfully.
+Oct  1 17:15:51 ubuntu-jammy systemd[1]: Reloading.
+Oct  1 17:15:52 ubuntu-jammy systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Oct  1 17:15:52 ubuntu-jammy systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Huge Pages File System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted POSIX Message Queue File System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Kernel Debug File System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Kernel Trace File System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Create List of Static Device Nodes.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Set the console keyboard layout.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load Kernel Module configfs.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: modprobe@drm.service: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load Kernel Module drm.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load Kernel Module efi_pstore.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load Kernel Module fuse.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load Kernel Modules.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Remount Root and Kernel File Systems.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting FUSE Control File System...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting Kernel Configuration File System...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Device-Mapper Multipath Device Controller...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Load/Save Random Seed...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Apply Kernel Variables...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Create System Users...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted FUSE Control File System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Kernel Configuration File System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Coldplug All udev Devices.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load/Save Random Seed.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Create System Users.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Apply Kernel Variables.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Create Static Device Nodes in /dev.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Flush Journal to Persistent Storage.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Device-Mapper Multipath Device Controller.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Preparation for Local File Systems.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting Mount unit for core22, revision 2955...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting Mount unit for lxd, revision 40575...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting Mount unit for lxd, revision 40911...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting Mount unit for snapd, revision 27738...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Mount unit for core22, revision 2955.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Rule-based Manager for Device Events and Files.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Mount unit for lxd, revision 40575.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Mount unit for lxd, revision 40911.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Mount unit for snapd, revision 27738.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Mounted snaps.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Local File Systems.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Set console font and keymap...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Local Encrypted Volumes.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Set Up Additional Binary Formats...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Create Volatile Files and Directories...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Uncomplicated firewall...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Set console font and keymap.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 440 (systemd-binfmt)
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Set Up Additional Binary Formats.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Create Volatile Files and Directories.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load AppArmor profiles.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Network Time Synchronization...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Cloud-init: Local Stage (pre-network)...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Network Time Synchronization.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target System Time Set.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Found device /dev/ttyS0.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Uncomplicated firewall.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: run-cloud\x2dinit-tmp-tmps2s3bjvn.mount: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Cloud-init: Local Stage (pre-network).
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Preparation for Network.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Network Configuration...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Network Configuration.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Wait for Network to be Configured...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Network Name Resolution...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Network Name Resolution.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Network.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Host and Network Name Lookups.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Wait for Network to be Configured.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Cloud-init: Network Stage...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Cloud-init: Network Stage.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Cloud-config availability.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Network is Online.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target System Initialization.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Daily apt download activities.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Daily dpkg database backup timer.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Discard unused blocks once a week.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Daily rotation of log files.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Daily man-db regeneration.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Message of the Day.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Timer for running repeated jobs being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Download data for packages that failed at package install time.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Path Units.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Timer Units.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on cloud-init hotplug hook socket.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Socket activation for snappy daemon...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on UUID daemon activation socket.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Preparation for Remote File Systems.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounting /vagrant...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Availability of block devices.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Listening on Socket activation for snappy daemon.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Socket Units.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Basic System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started D-Bus System Message Bus.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Save initial kernel messages after boot.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Record successful boot for GRUB...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started irqbalance daemon.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting A high performance web server and a reverse proxy server...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting System Logging Service...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Service for snap application lxd.activate...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Preparation for Logins.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Wait until snapd is fully seeded...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Snap Daemon...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting User Login Management...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro reboot cmds being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Mounted /vagrant.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Remote File Systems.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting LSB: automatic crash report generation...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Regular background program processing daemon.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Permit User Sessions...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Permit User Sessions.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Hold until boot process finishes up...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Hold until boot process finishes up.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Serial Getty on ttyS0.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting Set console scheme...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Terminate Plymouth Boot Screen.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: grub-common.service: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Record successful boot for GRUB.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting GRUB failed boot detection...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Set console scheme.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Created slice Slice /system/getty.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Getty on tty1.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Reached target Login Prompts.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished GRUB failed boot detection.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started System Logging Service.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started User Login Management.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Unattended Upgrades Shutdown.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started LSB: automatic crash report generation.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started OpenBSD Secure Shell server.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started A high performance web server and a reverse proxy server.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:16:29 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: tmp-snap\x2dprivate\x2dtmp-snap.rootfs_r8jZLU.mount: Deactivated successfully.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Queued start job for default target Main User Target.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Created slice User Application Slice.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Reached target Paths.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Reached target Timers.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on debconf communication socket.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Reached target Sockets.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Reached target Basic System.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Reached target Main User Target.
+Oct  1 17:16:29 ubuntu-jammy systemd[754]: Startup finished in 185ms.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: Started Session 1 of User vagrant.
+Oct  1 17:16:29 ubuntu-jammy systemd[1]: tmp-syscheck\x2dmountpoint\x2d2426834802.mount: Deactivated successfully.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Started Snap Daemon.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Starting Time & Date Service...
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Started Time & Date Service.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Finished Wait until snapd is fully seeded.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Starting Cloud-init: Config Stage...
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Finished Service for snap application lxd.activate.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Reached target Multi-User System.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Reached target Graphical Interface.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Starting Record Runlevel Change in UTMP...
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Oct  1 17:16:30 ubuntu-jammy systemd[1]: Finished Record Runlevel Change in UTMP.
+Oct  1 17:16:31 ubuntu-jammy systemd[1]: Finished Cloud-init: Config Stage.
+Oct  1 17:16:31 ubuntu-jammy systemd[1]: Starting Cloud-init: Final Stage...
+Oct  1 17:16:31 ubuntu-jammy systemd[1]: Finished Cloud-init: Final Stage.
+Oct  1 17:16:31 ubuntu-jammy systemd[1]: Reached target Cloud-init target.
+Oct  1 17:16:31 ubuntu-jammy systemd[1]: Startup finished in 3.408s (kernel) + 20.011s (userspace) = 23.419s.
+Oct  1 17:16:32 ubuntu-jammy systemd[1]: dmesg.service: Deactivated successfully.
+Oct  1 17:16:33 ubuntu-jammy systemd[1]: Reloading.
+Oct  1 17:16:33 ubuntu-jammy systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Oct  1 17:16:33 ubuntu-jammy systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+Oct  1 17:16:35 ubuntu-jammy systemd[1]: session-1.scope: Deactivated successfully.
+Oct  1 17:16:35 ubuntu-jammy systemd[1]: session-1.scope: Consumed 1.765s CPU time.
+Oct  1 17:16:35 ubuntu-jammy systemd[1]: session-1.scope: Deactivated successfully.
+Oct  1 17:16:35 ubuntu-jammy systemd[1]: session-1.scope: Consumed 1.702s CPU time.
+Oct  1 17:16:35 ubuntu-jammy systemd[1]: session-1.scope: Deactivated successfully.
+Oct  1 17:16:35 ubuntu-jammy systemd[1]: session-1.scope: Consumed 1.766s CPU time.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Stopped target Main User Target.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Stopped target Basic System.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Stopped target Paths.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Stopped target Sockets.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Stopped target Timers.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed D-Bus User Message Bus Socket.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed GnuPG network certificate management daemon.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed debconf communication socket.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Closed REST API socket for snapd user session agent.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Removed slice User Application Slice.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Reached target Shutdown.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Finished Exit the Session.
+Oct  1 17:16:46 ubuntu-jammy systemd[766]: Reached target Exit the Session.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user-1000.slice: Consumed 1.924s CPU time.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Stopped target Main User Target.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Stopped target Basic System.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Stopped target Paths.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Stopped target Sockets.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Stopped target Timers.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed D-Bus User Message Bus Socket.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed GnuPG network certificate management daemon.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed debconf communication socket.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Closed REST API socket for snapd user session agent.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Removed slice User Application Slice.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Reached target Shutdown.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Finished Exit the Session.
+Oct  1 17:16:46 ubuntu-jammy systemd[778]: Reached target Exit the Session.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user-1000.slice: Consumed 1.853s CPU time.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Stopped target Main User Target.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Stopped target Basic System.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Stopped target Paths.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Stopped target Sockets.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Stopped target Timers.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed D-Bus User Message Bus Socket.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed GnuPG network certificate management daemon.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed debconf communication socket.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Closed REST API socket for snapd user session agent.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Removed slice User Application Slice.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Reached target Shutdown.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Finished Exit the Session.
+Oct  1 17:16:46 ubuntu-jammy systemd[768]: Reached target Exit the Session.
+Oct  1 17:16:46 ubuntu-jammy systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 17:16:46 ubuntu-jammy systemd[1]: user-1000.slice: Consumed 1.916s CPU time.
+Oct  1 17:19:25 ubuntu-jammy systemd[1]: Starting Download data for packages that failed at package install time...
+Oct  1 17:19:25 ubuntu-jammy systemd[1]: update-notifier-download.service: Deactivated successfully.
+Oct  1 17:19:25 ubuntu-jammy systemd[1]: Finished Download data for packages that failed at package install time.
+Oct  1 17:20:07 ubuntu-jammy systemd[1]: Starting Download data for packages that failed at package install time...
+Oct  1 17:20:07 ubuntu-jammy systemd[1]: update-notifier-download.service: Deactivated successfully.
+Oct  1 17:20:07 ubuntu-jammy systemd[1]: Finished Download data for packages that failed at package install time.
+Oct  1 17:20:30 ubuntu-jammy systemd[1]: Starting Download data for packages that failed at package install time...
+Oct  1 17:20:31 ubuntu-jammy systemd[1]: update-notifier-download.service: Deactivated successfully.
+Oct  1 17:20:31 ubuntu-jammy systemd[1]: Finished Download data for packages that failed at package install time.
+Oct  1 17:21:21 ubuntu-jammy systemd[1]: Starting Download data for packages that failed at package install time...
+Oct  1 17:21:21 ubuntu-jammy systemd[1]: update-notifier-download.service: Deactivated successfully.
+Oct  1 17:21:21 ubuntu-jammy systemd[1]: Finished Download data for packages that failed at package install time.
+Oct  1 17:29:25 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 17:29:25 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 17:29:25 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 17:30:07 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 17:30:07 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 17:30:07 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 17:30:36 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 17:30:36 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 17:30:36 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 17:31:22 ubuntu-jammy systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  1 17:31:22 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct  1 17:31:22 ubuntu-jammy systemd[1]: Finished Cleanup of Temporary Directories.
+Oct  1 17:31:47 ubuntu-jammy systemd[1]: Starting Daily apt download activities...
+Oct  1 17:31:50 ubuntu-jammy systemd[1]: Starting Update APT News...
+Oct  1 17:31:50 ubuntu-jammy systemd[1]: Starting Update the local ESM caches...
+Oct  1 17:31:50 ubuntu-jammy systemd[1]: apt-news.service: Deactivated successfully.
+Oct  1 17:31:50 ubuntu-jammy systemd[1]: Finished Update APT News.
+Oct  1 17:31:51 ubuntu-jammy systemd[1]: esm-cache.service: Deactivated successfully.
+Oct  1 17:31:51 ubuntu-jammy systemd[1]: Finished Update the local ESM caches.
+Oct  1 17:31:51 ubuntu-jammy systemd[1]: Starting PackageKit Daemon...
+Oct  1 17:31:51 ubuntu-jammy systemd[1]: Starting Authorization Manager...
+Oct  1 17:31:51 ubuntu-jammy systemd[1]: Started Authorization Manager.
+Oct  1 17:31:52 ubuntu-jammy systemd[1]: Started PackageKit Daemon.
+Oct  1 17:32:09 ubuntu-jammy systemd[1]: apt-daily.service: Deactivated successfully.
+Oct  1 17:32:09 ubuntu-jammy systemd[1]: Finished Daily apt download activities.
+Oct  1 17:32:09 ubuntu-jammy systemd[1]: apt-daily.service: Consumed 13.475s CPU time.
+Oct  1 17:33:19 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:33:19 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:33:19 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:33:19 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:33:19 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Queued start job for default target Main User Target.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Created slice User Application Slice.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Reached target Paths.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Reached target Timers.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on debconf communication socket.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Reached target Sockets.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Reached target Basic System.
+Oct  1 17:33:19 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:33:19 ubuntu-jammy systemd[1]: Started Session 4 of User vagrant.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Reached target Main User Target.
+Oct  1 17:33:19 ubuntu-jammy systemd[1976]: Startup finished in 126ms.
+Oct  1 17:33:41 ubuntu-jammy systemd[1]: session-4.scope: Deactivated successfully.
+Oct  1 17:33:50 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:33:50 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:33:50 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:33:50 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:33:50 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Queued start job for default target Main User Target.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Created slice User Application Slice.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Reached target Paths.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Reached target Timers.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on debconf communication socket.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Reached target Sockets.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Reached target Basic System.
+Oct  1 17:33:50 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:33:50 ubuntu-jammy systemd[1]: Started Session 4 of User vagrant.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Reached target Main User Target.
+Oct  1 17:33:50 ubuntu-jammy systemd[1502]: Startup finished in 101ms.
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Stopped target Main User Target.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Stopped target Basic System.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Stopped target Paths.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Stopped target Sockets.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Stopped target Timers.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed D-Bus User Message Bus Socket.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed GnuPG network certificate management daemon.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed debconf communication socket.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Closed REST API socket for snapd user session agent.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Removed slice User Application Slice.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Reached target Shutdown.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Finished Exit the Session.
+Oct  1 17:33:51 ubuntu-jammy systemd[1976]: Reached target Exit the Session.
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 17:33:51 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 17:36:49 ubuntu-jammy systemd[1]: session-4.scope: Deactivated successfully.
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: Stopping User Manager for UID 1000...
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Stopped target Main User Target.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Stopped target Basic System.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Stopped target Paths.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Stopped target Sockets.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Stopped target Timers.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed D-Bus User Message Bus Socket.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed GnuPG network certificate management daemon.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed debconf communication socket.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Closed REST API socket for snapd user session agent.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Removed slice User Application Slice.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Reached target Shutdown.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Finished Exit the Session.
+Oct  1 17:37:00 ubuntu-jammy systemd[1502]: Reached target Exit the Session.
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: user@1000.service: Deactivated successfully.
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: Stopped User Manager for UID 1000.
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: run-user-1000.mount: Deactivated successfully.
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Oct  1 17:37:00 ubuntu-jammy systemd[1]: Removed slice User Slice of UID 1000.
+Oct  1 17:37:04 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:37:04 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:37:04 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:37:04 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:37:04 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Queued start job for default target Main User Target.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Created slice User Application Slice.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Reached target Paths.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Reached target Timers.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on debconf communication socket.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Reached target Sockets.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Reached target Basic System.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Reached target Main User Target.
+Oct  1 17:37:04 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:37:04 ubuntu-jammy systemd[1410]: Startup finished in 107ms.
+Oct  1 17:37:04 ubuntu-jammy systemd[1]: Started Session 4 of User vagrant.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: unattended-upgrades.service: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: vagrant.mount: Found ordering cycle on local-fs.target/stop
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: vagrant.mount: Found dependency on systemd-tmpfiles-setup.service/stop
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: vagrant.mount: Found dependency on systemd-resolved.service/stop
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: vagrant.mount: Found dependency on network.target/stop
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: vagrant.mount: Found dependency on vagrant.mount/stop
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: vagrant.mount: Job local-fs.target/stop deleted to break ordering cycle starting with vagrant.mount/stop
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopping Session 4 of User vagrant...
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Removed slice Slice /system/modprobe.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped target Cloud-init target.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped target Graphical Interface.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped target Timer Units.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: apt-daily-upgrade.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Daily apt upgrade and clean activities.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: apt-daily.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Daily apt download activities.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: dpkg-db-backup.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Daily dpkg database backup timer.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: e2scrub_all.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: fstrim.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Discard unused blocks once a week.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: logrotate.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Daily rotation of log files.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: man-db.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Daily man-db regeneration.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: motd-news.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Message of the Day.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: update-notifier-download.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Download data for packages that failed at package install time.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: update-notifier-motd.timer: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Stopped Check to see whether there is a new version of Ubuntu available.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: cloud-init-hotplugd.socket: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Closed cloud-init hotplug hook socket.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: lvm2-lvmpolld.socket: Deactivated successfully.
+Oct  1 17:37:06 ubuntu-jammy systemd[1]: Closed LVM2 poll daemon socket.
+Oct  1 17:37:11 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:37:11 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:37:11 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:37:11 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:37:11 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Queued start job for default target Main User Target.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Created slice User Application Slice.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Reached target Paths.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Reached target Timers.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on debconf communication socket.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Reached target Sockets.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Reached target Basic System.
+Oct  1 17:37:11 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:37:11 ubuntu-jammy systemd[1]: Started Session 6 of User vagrant.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Reached target Main User Target.
+Oct  1 17:37:11 ubuntu-jammy systemd[1588]: Startup finished in 102ms.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: unattended-upgrades.service: Deactivated successfully.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: local-fs.target: Found ordering cycle on systemd-tmpfiles-setup.service/stop
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on systemd-resolved.service/stop
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on network.target/stop
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on network-online.target/stop
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on vagrant.mount/stop
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on local-fs.target/stop
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: local-fs.target: Job systemd-tmpfiles-setup.service/stop deleted to break ordering cycle starting with local-fs.target/stop
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopping Session 6 of User vagrant...
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Removed slice Slice /system/modprobe.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopped target Cloud-init target.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopped target Graphical Interface.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopped target Timer Units.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: apt-daily-upgrade.timer: Deactivated successfully.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopped Daily apt upgrade and clean activities.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: apt-daily.timer: Deactivated successfully.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopped Daily apt download activities.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: dpkg-db-backup.timer: Deactivated successfully.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopped Daily dpkg database backup timer.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: e2scrub_all.timer: Deactivated successfully.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Oct  1 17:37:13 ubuntu-jammy systemd[1]: fstrim.timer: Deactivated successfully.
+Oct  1 17:37:18 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:37:18 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:37:18 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:37:18 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:37:18 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Queued start job for default target Main User Target.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Created slice User Application Slice.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Reached target Paths.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Reached target Timers.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on debconf communication socket.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Reached target Sockets.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Reached target Basic System.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Reached target Main User Target.
+Oct  1 17:37:18 ubuntu-jammy systemd[2056]: Startup finished in 101ms.
+Oct  1 17:37:18 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:37:18 ubuntu-jammy systemd[1]: Started Session 6 of User vagrant.
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: unattended-upgrades.service: Deactivated successfully.
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: local-fs.target: Found ordering cycle on systemd-tmpfiles-setup.service/stop
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on systemd-resolved.service/stop
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on network.target/stop
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on network-online.target/stop
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on home-vagrant-ansible.mount/stop
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: local-fs.target: Found dependency on local-fs.target/stop
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: local-fs.target: Job systemd-tmpfiles-setup.service/stop deleted to break ordering cycle starting with local-fs.target/stop
+Oct  1 17:37:20 ubuntu-jammy systemd[1]: Stopping Session 6 of User vagrant...
+Oct  1 17:37:27 ubuntu-jammy systemd[1]: Created slice User Slice of UID 1000.
+Oct  1 17:37:27 ubuntu-jammy systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct  1 17:37:27 ubuntu-jammy systemd[1]: Finished User Runtime Directory /run/user/1000.
+Oct  1 17:37:27 ubuntu-jammy systemd[1]: Starting User Manager for UID 1000...
+Oct  1 17:37:27 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Queued start job for default target Main User Target.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Created slice User Application Slice.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Reached target Paths.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Reached target Timers.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Starting D-Bus User Message Bus Socket...
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on GnuPG network certificate management daemon.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on debconf communication socket.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on REST API socket for snapd user session agent.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Listening on D-Bus User Message Bus Socket.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Reached target Sockets.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Reached target Basic System.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Reached target Main User Target.
+Oct  1 17:37:27 ubuntu-jammy systemd[1534]: Startup finished in 97ms.
+Oct  1 17:37:27 ubuntu-jammy systemd[1]: Started User Manager for UID 1000.
+Oct  1 17:37:27 ubuntu-jammy systemd[1]: Started Session 4 of User vagrant.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: unattended-upgrades.service: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found ordering cycle on var-lib-dados_persistentes.mount/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on local-fs.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on systemd-tmpfiles-setup.service/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on systemd-resolved.service/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on network.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Job var-lib-dados_persistentes.mount/stop deleted to break ordering cycle starting with network.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found ordering cycle on network-online.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on vagrant.mount/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on local-fs.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on systemd-tmpfiles-setup.service/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on systemd-resolved.service/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on network.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Job network-online.target/stop deleted to break ordering cycle starting with network.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found ordering cycle on vagrant.mount/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on local-fs.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on systemd-tmpfiles-setup.service/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on systemd-resolved.service/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Found dependency on network.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: network.target: Job vagrant.mount/stop deleted to break ordering cycle starting with network.target/stop
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping Session 4 of User vagrant...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Removed slice Slice /system/modprobe.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped target Cloud-init target.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped target Graphical Interface.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped target Host and Network Name Lookups.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped target Timer Units.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: apt-daily-upgrade.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Daily apt upgrade and clean activities.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: apt-daily.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Daily apt download activities.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: dpkg-db-backup.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Daily dpkg database backup timer.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: e2scrub_all.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: fstrim.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Discard unused blocks once a week.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: logrotate.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Daily rotation of log files.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: man-db.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Daily man-db regeneration.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: motd-news.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Message of the Day.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: systemd-tmpfiles-clean.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: update-notifier-download.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Download data for packages that failed at package install time.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: update-notifier-motd.timer: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Check to see whether there is a new version of Ubuntu available.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: cloud-init-hotplugd.socket: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Closed cloud-init hotplug hook socket.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: lvm2-lvmpolld.socket: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Closed LVM2 poll daemon socket.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: systemd-rfkill.socket: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping Availability of block devices...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: cloud-final.service: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Cloud-init: Final Stage.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped target Multi-User System.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped target Login Prompts.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping LSB: automatic crash report generation...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: cloud-config.service: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Cloud-init: Config Stage.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped target Cloud-config availability.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping Regular background program processing daemon...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping Create final runtime dir for shutdown pivot root...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping Getty on tty1...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping irqbalance daemon...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: plymouth-quit.service: Deactivated successfully.
+Oct  1 17:37:29 ubuntu-jammy systemd[1]: Stopped Terminate Plymouth Boot Screen.

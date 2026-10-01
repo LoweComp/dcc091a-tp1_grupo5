@@ -1,0 +1,24 @@
+Oct  1 17:14:25 ubuntu-jammy lxd.activate[695]: => Starting LXD activation
+Oct  1 17:14:25 ubuntu-jammy lxd.activate[695]: ==> Loading snap configuration
+Oct  1 17:14:25 ubuntu-jammy lxd.activate[695]: ==> Checking for socket activation support
+Oct  1 17:14:25 ubuntu-jammy lxd.activate[695]: ==> Setting LXD socket ownership
+Oct  1 17:14:25 ubuntu-jammy lxd.activate[695]: ==> Setting LXD user socket ownership
+Oct  1 17:14:25 ubuntu-jammy lxd.activate[695]: ==> LXD never started on this system, no need to start it now
+Oct  1 17:15:07 ubuntu-jammy lxd.activate[699]: => Starting LXD activation
+Oct  1 17:15:07 ubuntu-jammy lxd.activate[699]: ==> Loading snap configuration
+Oct  1 17:15:07 ubuntu-jammy lxd.activate[699]: ==> Checking for socket activation support
+Oct  1 17:15:07 ubuntu-jammy lxd.activate[699]: ==> Setting LXD socket ownership
+Oct  1 17:15:07 ubuntu-jammy lxd.activate[699]: ==> Setting LXD user socket ownership
+Oct  1 17:15:07 ubuntu-jammy lxd.activate[699]: ==> LXD never started on this system, no need to start it now
+Oct  1 17:15:50 ubuntu-jammy lxd.activate[704]: => Starting LXD activation
+Oct  1 17:15:50 ubuntu-jammy lxd.activate[704]: ==> Loading snap configuration
+Oct  1 17:15:50 ubuntu-jammy lxd.activate[704]: ==> Checking for socket activation support
+Oct  1 17:15:50 ubuntu-jammy lxd.activate[704]: ==> Setting LXD socket ownership
+Oct  1 17:15:50 ubuntu-jammy lxd.activate[704]: ==> Setting LXD user socket ownership
+Oct  1 17:15:50 ubuntu-jammy lxd.activate[704]: ==> LXD never started on this system, no need to start it now
+Oct  1 17:16:30 ubuntu-jammy lxd.activate[681]: => Starting LXD activation
+Oct  1 17:16:30 ubuntu-jammy lxd.activate[681]: ==> Loading snap configuration
+Oct  1 17:16:30 ubuntu-jammy lxd.activate[681]: ==> Checking for socket activation support
+Oct  1 17:16:30 ubuntu-jammy lxd.activate[681]: ==> Setting LXD socket ownership
+Oct  1 17:16:30 ubuntu-jammy lxd.activate[681]: ==> Setting LXD user socket ownership
+Oct  1 17:16:30 ubuntu-jammy lxd.activate[681]: ==> LXD never started on this system, no need to start it now

@@ -1,0 +1,40 @@
+Oct  1 17:14:24 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:24 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:24 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:24 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:14:24 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:24 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:14:28 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:28 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:14:29 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:29 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:14:38 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:38 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:14:39 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:14:39 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:06 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:06 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:06 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:15:06 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:06 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:15:10 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:10 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:46 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:46 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:46 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:15:46 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:46 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:15:51 ubuntu-jammy multipath: sda: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:51 ubuntu-jammy multipath: sda: failed to get sgio uid: No data available
+Oct  1 17:15:51 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:15:51 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available
+Oct  1 17:16:29 ubuntu-jammy multipath: sdb: failed to get sysfs uid: Invalid argument
+Oct  1 17:16:29 ubuntu-jammy multipath: sdb: failed to get sgio uid: No data available

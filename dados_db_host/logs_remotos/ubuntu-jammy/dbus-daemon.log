@@ -2,3 +2,20 @@ Oct  1 16:34:13 ubuntu-jammy dbus-daemon[690]: [system] Activating via systemd: 
 Oct  1 16:34:13 ubuntu-jammy dbus-daemon[690]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.24' (uid=0 pid=2275 comm="/usr/libexec/packagekitd " label="unconfined")
 Oct  1 16:34:13 ubuntu-jammy dbus-daemon[690]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
 Oct  1 16:34:14 ubuntu-jammy dbus-daemon[690]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct  1 17:14:24 ubuntu-jammy dbus-daemon[687]: [system] AppArmor D-Bus mediation is enabled
+Oct  1 17:14:25 ubuntu-jammy dbus-daemon[687]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=697 comm="/usr/lib/snapd/snapd " label="unconfined")
+Oct  1 17:14:25 ubuntu-jammy dbus-daemon[687]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Oct  1 17:15:06 ubuntu-jammy dbus-daemon[690]: [system] AppArmor D-Bus mediation is enabled
+Oct  1 17:15:07 ubuntu-jammy dbus-daemon[690]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=701 comm="/usr/lib/snapd/snapd " label="unconfined")
+Oct  1 17:15:07 ubuntu-jammy dbus-daemon[690]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Oct  1 17:15:46 ubuntu-jammy dbus-daemon[695]: [system] AppArmor D-Bus mediation is enabled
+Oct  1 17:15:46 ubuntu-jammy dbus-daemon[695]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Oct  1 17:15:49 ubuntu-jammy dbus-daemon[695]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=706 comm="/snap/snapd/current/usr/lib/snapd/snapd " label="unconfined")
+Oct  1 17:15:49 ubuntu-jammy dbus-daemon[695]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Oct  1 17:16:29 ubuntu-jammy dbus-daemon[672]: [system] AppArmor D-Bus mediation is enabled
+Oct  1 17:16:30 ubuntu-jammy dbus-daemon[672]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=683 comm="/usr/lib/snapd/snapd " label="unconfined")
+Oct  1 17:16:30 ubuntu-jammy dbus-daemon[672]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Oct  1 17:31:51 ubuntu-jammy dbus-daemon[690]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.19' (uid=0 pid=1880 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct  1 17:31:51 ubuntu-jammy dbus-daemon[690]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.21' (uid=0 pid=1883 comm="/usr/libexec/packagekitd " label="unconfined")
+Oct  1 17:31:51 ubuntu-jammy dbus-daemon[690]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct  1 17:31:52 ubuntu-jammy dbus-daemon[690]: [system] Successfully activated service 'org.freedesktop.PackageKit'

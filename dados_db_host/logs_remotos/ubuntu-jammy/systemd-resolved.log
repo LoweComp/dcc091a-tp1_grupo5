@@ -1,1 +1,27 @@
 Oct  1 16:34:04 ubuntu-jammy systemd-resolved[628]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.0.2.3.
+Oct  1 16:50:38 ubuntu-jammy systemd-resolved[627]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 10.0.2.3.
+Oct  1 16:53:44 ubuntu-jammy systemd-resolved[631]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 10.0.2.3.
+Oct  1 16:53:44 ubuntu-jammy systemd-resolved[631]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.0.2.3.
+Oct  1 16:54:06 ubuntu-jammy systemd-resolved[626]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 10.0.2.3.
+Oct  1 16:54:06 ubuntu-jammy systemd-resolved[626]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.0.2.3.
+Oct  1 17:14:24 ubuntu-jammy systemd-resolved[628]: Positive Trust Anchors:
+Oct  1 17:14:24 ubuntu-jammy systemd-resolved[628]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct  1 17:14:24 ubuntu-jammy systemd-resolved[628]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct  1 17:14:24 ubuntu-jammy systemd-resolved[628]: Using system hostname 'ubuntu-jammy'.
+Oct  1 17:14:24 ubuntu-jammy systemd-resolved[628]: Clock change detected. Flushing caches.
+Oct  1 17:15:06 ubuntu-jammy systemd-resolved[630]: Positive Trust Anchors:
+Oct  1 17:15:06 ubuntu-jammy systemd-resolved[630]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct  1 17:15:06 ubuntu-jammy systemd-resolved[630]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct  1 17:15:06 ubuntu-jammy systemd-resolved[630]: Using system hostname 'ubuntu-jammy'.
+Oct  1 17:15:06 ubuntu-jammy systemd-resolved[630]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.0.2.3.
+Oct  1 17:15:06 ubuntu-jammy systemd-resolved[630]: Clock change detected. Flushing caches.
+Oct  1 17:15:46 ubuntu-jammy systemd-resolved[637]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct  1 17:15:46 ubuntu-jammy systemd-resolved[637]: Using system hostname 'ubuntu-jammy'.
+Oct  1 17:15:46 ubuntu-jammy systemd-resolved[637]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.0.2.3.
+Oct  1 17:15:46 ubuntu-jammy systemd-resolved[637]: Clock change detected. Flushing caches.
+Oct  1 17:16:29 ubuntu-jammy systemd-resolved[634]: Positive Trust Anchors:
+Oct  1 17:16:29 ubuntu-jammy systemd-resolved[634]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Oct  1 17:16:29 ubuntu-jammy systemd-resolved[634]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Oct  1 17:16:29 ubuntu-jammy systemd-resolved[634]: Using system hostname 'ubuntu-jammy'.
+Oct  1 17:16:29 ubuntu-jammy systemd-resolved[634]: Clock change detected. Flushing caches.
+Oct  1 17:16:31 ubuntu-jammy systemd-resolved[634]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.0.2.3.

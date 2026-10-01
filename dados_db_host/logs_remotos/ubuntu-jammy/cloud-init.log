@@ -1,0 +1,147 @@
+Oct  1 17:14:24 ubuntu-jammy cloud-init[615]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init-local' at Thu, 01 Oct 2026 17:15:45 +0000. Up 5.57 seconds.
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init' at Thu, 01 Oct 2026 17:14:23 +0000. Up 19.83 seconds.
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 02:8e:3e:db:5c:8a |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: | enp0s3 | True |  fe80::8e:3eff:fedb:5c8a/64 |       .       |  link  | 02:8e:3e:db:5c:8a |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: | enp0s8 | True |        192.168.56.20        | 255.255.255.0 | global | 08:00:27:f9:89:42 |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: | enp0s8 | True | fe80::a00:27ff:fef9:8942/64 |       .       |  link  | 08:00:27:f9:89:42 |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: | Route | Destination  | Gateway  |     Genmask     | Interface | Flags |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   0   |   0.0.0.0    | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   1   |   10.0.2.0   | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   2   |   10.0.2.2   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   3   |   10.0.2.3   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   4   | 192.168.56.0 | 0.0.0.0  |  255.255.255.0  |   enp0s8  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s8  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   2   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   4   |    local    |    ::   |   enp0s3  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   5   |    local    |    ::   |   enp0s8  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   6   |  multicast  |    ::   |   enp0s8  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: |   7   |  multicast  |    ::   |   enp0s3  |   U   |
+Oct  1 17:14:24 ubuntu-jammy cloud-init[654]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:14:26 ubuntu-jammy cloud-init[951]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:config' at Thu, 01 Oct 2026 17:14:26 +0000. Up 22.49 seconds.
+Oct  1 17:14:26 ubuntu-jammy cloud-init[956]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:final' at Thu, 01 Oct 2026 17:14:26 +0000. Up 22.92 seconds.
+Oct  1 17:14:26 ubuntu-jammy cloud-init[956]: Cloud-init v. 26.1-0ubuntu1~22.04.1 finished at Thu, 01 Oct 2026 17:14:26 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb].  Up 23.02 seconds
+Oct  1 17:15:06 ubuntu-jammy cloud-init[617]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init-local' at Thu, 01 Oct 2026 17:16:27 +0000. Up 5.96 seconds.
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init' at Thu, 01 Oct 2026 17:15:05 +0000. Up 20.63 seconds.
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 02:8e:3e:db:5c:8a |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: | enp0s3 | True |  fe80::8e:3eff:fedb:5c8a/64 |       .       |  link  | 02:8e:3e:db:5c:8a |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: | enp0s8 | True |        192.168.56.10        | 255.255.255.0 | global | 08:00:27:c6:5c:fc |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: | enp0s8 | True | fe80::a00:27ff:fec6:5cfc/64 |       .       |  link  | 08:00:27:c6:5c:fc |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: | Route | Destination  | Gateway  |     Genmask     | Interface | Flags |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   0   |   0.0.0.0    | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   1   |   10.0.2.0   | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   2   |   10.0.2.2   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   3   |   10.0.2.3   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   4   | 192.168.56.0 | 0.0.0.0  |  255.255.255.0  |   enp0s8  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s8  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   2   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   4   |    local    |    ::   |   enp0s3  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   5   |    local    |    ::   |   enp0s8  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   6   |  multicast  |    ::   |   enp0s8  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: |   7   |  multicast  |    ::   |   enp0s3  |   U   |
+Oct  1 17:15:06 ubuntu-jammy cloud-init[656]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:15:08 ubuntu-jammy cloud-init[962]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:config' at Thu, 01 Oct 2026 17:15:08 +0000. Up 23.36 seconds.
+Oct  1 17:15:08 ubuntu-jammy cloud-init[967]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:final' at Thu, 01 Oct 2026 17:15:08 +0000. Up 23.81 seconds.
+Oct  1 17:15:08 ubuntu-jammy cloud-init[967]: Cloud-init v. 26.1-0ubuntu1~22.04.1 finished at Thu, 01 Oct 2026 17:15:08 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb].  Up 23.89 seconds
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init' at Thu, 01 Oct 2026 17:15:46 +0000. Up 19.75 seconds.
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 02:8e:3e:db:5c:8a |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: | enp0s3 | True |  fe80::8e:3eff:fedb:5c8a/64 |       .       |  link  | 02:8e:3e:db:5c:8a |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: | enp0s8 | True |        192.168.56.11        | 255.255.255.0 | global | 08:00:27:bc:d8:68 |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: | enp0s8 | True | fe80::a00:27ff:febc:d868/64 |       .       |  link  | 08:00:27:bc:d8:68 |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: | Route | Destination  | Gateway  |     Genmask     | Interface | Flags |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   0   |   0.0.0.0    | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   1   |   10.0.2.0   | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   2   |   10.0.2.2   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   3   |   10.0.2.3   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   4   | 192.168.56.0 | 0.0.0.0  |  255.255.255.0  |   enp0s8  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s8  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   2   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   4   |    local    |    ::   |   enp0s3  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   5   |    local    |    ::   |   enp0s8  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   6   |  multicast  |    ::   |   enp0s8  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: |   7   |  multicast  |    ::   |   enp0s3  |   U   |
+Oct  1 17:15:46 ubuntu-jammy cloud-init[663]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:15:50 ubuntu-jammy cloud-init[1016]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:config' at Thu, 01 Oct 2026 17:15:50 +0000. Up 23.55 seconds.
+Oct  1 17:15:50 ubuntu-jammy cloud-init[1117]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:final' at Thu, 01 Oct 2026 17:15:50 +0000. Up 24.22 seconds.
+Oct  1 17:15:50 ubuntu-jammy cloud-init[1117]: Cloud-init v. 26.1-0ubuntu1~22.04.1 finished at Thu, 01 Oct 2026 17:15:50 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb].  Up 24.31 seconds
+Oct  1 17:16:29 ubuntu-jammy cloud-init[621]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init-local' at Thu, 01 Oct 2026 17:17:50 +0000. Up 5.69 seconds.
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'init' at Thu, 01 Oct 2026 17:18:04 +0000. Up 19.80 seconds.
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 02:8e:3e:db:5c:8a |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: | enp0s3 | True |  fe80::8e:3eff:fedb:5c8a/64 |       .       |  link  | 02:8e:3e:db:5c:8a |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: | enp0s8 | True |        192.168.56.12        | 255.255.255.0 | global | 08:00:27:65:36:ad |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: | enp0s8 | True | fe80::a00:27ff:fe65:36ad/64 |       .       |  link  | 08:00:27:65:36:ad |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: | Route | Destination  | Gateway  |     Genmask     | Interface | Flags |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   0   |   0.0.0.0    | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   1   |   10.0.2.0   | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   2   |   10.0.2.2   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   3   |   10.0.2.3   | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   4   | 192.168.56.0 | 0.0.0.0  |  255.255.255.0  |   enp0s8  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +-------+--------------+----------+-----------------+-----------+-------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s8  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   2   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   4   |    local    |    ::   |   enp0s3  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   5   |    local    |    ::   |   enp0s8  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   6   |  multicast  |    ::   |   enp0s8  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: |   7   |  multicast  |    ::   |   enp0s3  |   U   |
+Oct  1 17:16:29 ubuntu-jammy cloud-init[639]: ci-info: +-------+-------------+---------+-----------+-------+
+Oct  1 17:16:31 ubuntu-jammy cloud-init[939]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:config' at Thu, 01 Oct 2026 17:16:31 +0000. Up 22.77 seconds.
+Oct  1 17:16:31 ubuntu-jammy cloud-init[958]: Cloud-init v. 26.1-0ubuntu1~22.04.1 running 'modules:final' at Thu, 01 Oct 2026 17:16:31 +0000. Up 23.25 seconds.
+Oct  1 17:16:31 ubuntu-jammy cloud-init[958]: Cloud-init v. 26.1-0ubuntu1~22.04.1 finished at Thu, 01 Oct 2026 17:16:31 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb].  Up 23.35 seconds

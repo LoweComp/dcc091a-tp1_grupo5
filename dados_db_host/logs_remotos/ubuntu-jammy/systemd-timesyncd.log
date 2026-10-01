@@ -1,0 +1,24 @@
+Oct  1 17:05:42 ubuntu-jammy systemd-timesyncd[438]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Oct  1 17:14:24 ubuntu-jammy systemd-timesyncd[444]: Network configuration changed, trying to establish connection.
+Oct  1 17:14:24 ubuntu-jammy systemd-timesyncd[444]: Network configuration changed, trying to establish connection.
+Oct  1 17:14:24 ubuntu-jammy systemd-timesyncd[444]: Network configuration changed, trying to establish connection.
+Oct  1 17:14:24 ubuntu-jammy systemd-timesyncd[444]: Network configuration changed, trying to establish connection.
+Oct  1 17:14:24 ubuntu-jammy systemd-timesyncd[444]: Network configuration changed, trying to establish connection.
+Oct  1 17:14:24 ubuntu-jammy systemd-timesyncd[444]: Network configuration changed, trying to establish connection.
+Oct  1 17:14:24 ubuntu-jammy systemd-timesyncd[444]: Initial synchronization to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Oct  1 17:15:06 ubuntu-jammy systemd-timesyncd[447]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:06 ubuntu-jammy systemd-timesyncd[447]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:06 ubuntu-jammy systemd-timesyncd[447]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:06 ubuntu-jammy systemd-timesyncd[447]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:06 ubuntu-jammy systemd-timesyncd[447]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:06 ubuntu-jammy systemd-timesyncd[447]: Initial synchronization to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Oct  1 17:15:46 ubuntu-jammy systemd-timesyncd[436]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:46 ubuntu-jammy systemd-timesyncd[436]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:46 ubuntu-jammy systemd-timesyncd[436]: Network configuration changed, trying to establish connection.
+Oct  1 17:15:46 ubuntu-jammy systemd-timesyncd[436]: Initial synchronization to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Oct  1 17:16:29 ubuntu-jammy systemd-timesyncd[464]: Network configuration changed, trying to establish connection.
+Oct  1 17:16:29 ubuntu-jammy systemd-timesyncd[464]: Network configuration changed, trying to establish connection.
+Oct  1 17:16:29 ubuntu-jammy systemd-timesyncd[464]: Network configuration changed, trying to establish connection.
+Oct  1 17:16:29 ubuntu-jammy systemd-timesyncd[464]: Network configuration changed, trying to establish connection.
+Oct  1 17:16:29 ubuntu-jammy systemd-timesyncd[464]: Network configuration changed, trying to establish connection.
+Oct  1 17:16:29 ubuntu-jammy systemd-timesyncd[464]: Initial synchronization to time server 185.125.190.56:123 (ntp.ubuntu.com).

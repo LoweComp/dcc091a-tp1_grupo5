@@ -1,0 +1,8 @@
+Oct  1 17:14:24 ubuntu-jammy networkd-dispatcher[693]: No valid path found for iwconfig
+Oct  1 17:14:24 ubuntu-jammy networkd-dispatcher[693]: No valid path found for iw
+Oct  1 17:15:06 ubuntu-jammy networkd-dispatcher[696]: No valid path found for iwconfig
+Oct  1 17:15:06 ubuntu-jammy networkd-dispatcher[696]: No valid path found for iw
+Oct  1 17:15:47 ubuntu-jammy networkd-dispatcher[701]: No valid path found for iwconfig
+Oct  1 17:15:47 ubuntu-jammy networkd-dispatcher[701]: No valid path found for iw
+Oct  1 17:16:29 ubuntu-jammy networkd-dispatcher[678]: No valid path found for iwconfig
+Oct  1 17:16:29 ubuntu-jammy networkd-dispatcher[678]: No valid path found for iw
