@@ -1,0 +1,22 @@
+Oct  1 16:36:00 ubuntu-jammy sshd[1605]: Received disconnect from 192.168.56.10 port 45170:11: disconnected by user
+Oct  1 16:36:00 ubuntu-jammy sshd[1605]: Disconnected from user vagrant 192.168.56.10 port 45170
+Oct  1 16:36:00 ubuntu-jammy sshd[1538]: pam_unix(sshd:session): session closed for user vagrant
+Oct  1 16:36:44 ubuntu-jammy sshd[1838]: Received disconnect from 192.168.56.10 port 53714:11: disconnected by user
+Oct  1 16:36:44 ubuntu-jammy sshd[1838]: Disconnected from user vagrant 192.168.56.10 port 53714
+Oct  1 16:36:44 ubuntu-jammy sshd[1771]: pam_unix(sshd:session): session closed for user vagrant
+Oct  1 16:36:44 ubuntu-jammy sshd[1955]: Received disconnect from 192.168.56.10 port 40562:11: disconnected by user
+Oct  1 16:36:44 ubuntu-jammy sshd[1955]: Disconnected from user vagrant 192.168.56.10 port 40562
+Oct  1 16:36:44 ubuntu-jammy sshd[1898]: pam_unix(sshd:session): session closed for user vagrant
+Oct  1 16:36:51 ubuntu-jammy sshd[1772]: Received disconnect from 192.168.56.10 port 59712:11: disconnected by user
+Oct  1 16:36:51 ubuntu-jammy sshd[1772]: Disconnected from user vagrant 192.168.56.10 port 59712
+Oct  1 16:36:51 ubuntu-jammy sshd[1704]: pam_unix(sshd:session): session closed for user vagrant
+Oct  1 16:38:28 ubuntu-jammy sshd[1632]: Received disconnect from 10.0.2.2 port 60495:11: disconnected by user
+Oct  1 16:38:28 ubuntu-jammy sshd[1632]: Disconnected from user vagrant 10.0.2.2 port 60495
+Oct  1 16:38:28 ubuntu-jammy sshd[1565]: pam_unix(sshd:session): session closed for user vagrant
+Oct  1 16:40:12 ubuntu-jammy sshd[3893]: Accepted publickey for vagrant from 10.0.2.2 port 62141 ssh2: ED25519 SHA256:TE64HfPvfKKRNXJ4AYn9CjR73irx2ZZiv8CGoI92214
+Oct  1 16:40:12 ubuntu-jammy sshd[3893]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Oct  1 16:40:56 ubuntu-jammy sshd[3957]: Received disconnect from 10.0.2.2 port 62141:11: disconnected by user
+Oct  1 16:40:56 ubuntu-jammy sshd[3957]: Disconnected from user vagrant 10.0.2.2 port 62141
+Oct  1 16:40:56 ubuntu-jammy sshd[3893]: pam_unix(sshd:session): session closed for user vagrant
+Oct  1 16:41:06 ubuntu-jammy sshd[3116]: Accepted publickey for vagrant from 10.0.2.2 port 61332 ssh2: ED25519 SHA256:tQF1cfxvs8vGu3k+aS86RyfvcQGqKsKMXRxubX7/CKY
+Oct  1 16:41:06 ubuntu-jammy sshd[3116]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)

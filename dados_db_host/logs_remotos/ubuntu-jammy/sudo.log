@@ -1,0 +1,72 @@
+Oct  1 16:33:59 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:00 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-bqhzxipahatsgtjlbgxtiyopcrpoqjjh ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872440.09849-1709-51047651754189/AnsiballZ_setup.py'
+Oct  1 16:34:00 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:01 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:02 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-zigsqysjytgfkhuohhhdlbbzbqzhzbkm ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872441.8652174-1887-93127317153603/AnsiballZ_lineinfile.py'
+Oct  1 16:34:02 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:02 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:02 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-zhkulpfymgrljvndqjoewskdymjbskmk ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872442.3674777-1945-133987472370049/AnsiballZ_lineinfile.py'
+Oct  1 16:34:02 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:02 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:02 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hwylvkqyxuvxfjwxskyzjwfxxyjjsbcr ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872442.776419-2007-238641023850271/AnsiballZ_apt.py'
+Oct  1 16:34:02 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:26 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:54 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-awowqskhutkhkpfqvhcewtjhkzfhprmj ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872494.6112392-2423-167268411184882/AnsiballZ_ufw.py'
+Oct  1 16:34:54 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:55 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:55 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-dvtjssnoovawpdpfthyqhoskcvexegic ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872495.5433784-2514-144682347983221/AnsiballZ_ufw.py'
+Oct  1 16:34:55 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:56 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:56 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-nhxxrsdxzmpncbwbgatmbsgpuorcjdaf ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872496.5568194-2620-35748109975644/AnsiballZ_ufw.py'
+Oct  1 16:34:56 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:57 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:34:57 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-qsogqtjlbxchcmytcurozatledrxkcsz ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872497.4316697-2708-42128394338550/AnsiballZ_ufw.py'
+Oct  1 16:34:57 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:34:59 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:02 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:02 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:02 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:02 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-sgflffzqovlfpjbbkujjaudoicpbbyjk ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872502.252718-3524-165546963400399/AnsiballZ_setup.py'
+Oct  1 16:35:02 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:02 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-wcyhelelclkqwoiqtfmbikdtlczgudoc ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872502.2686155-3526-216324516452566/AnsiballZ_setup.py'
+Oct  1 16:35:02 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:03 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:03 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:03 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hpwbergubhfpverztbtcddhukauzjdaj ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872503.1894946-3542-67009407397275/AnsiballZ_apt.py'
+Oct  1 16:35:03 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:03 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-aohflfecyllnygmvgfrgplimnzteapak ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872503.2031507-3544-28149155042720/AnsiballZ_apt.py'
+Oct  1 16:35:03 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:22 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:42 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:42 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-yrsahrizitnpgfhktluzzmplajedcdor ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872542.4545968-3560-202584117765932/AnsiballZ_systemd.py'
+Oct  1 16:35:42 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:42 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:43 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-arvilmvsfctaqzvgvgzsutpniwaxehwz ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872542.6370392-3561-9087522229202/AnsiballZ_systemd.py'
+Oct  1 16:35:43 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:43 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:43 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-uairrsgjsasjqimrbfloggklxhnbbhfw ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872543.5136635-3578-163288367180779/AnsiballZ_stat.py'
+Oct  1 16:35:43 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:43 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-lxfqsbtqysxclwppysvhdvbahzmkebvs ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872543.532004-3579-70431162839211/AnsiballZ_stat.py'
+Oct  1 16:35:43 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:43 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:43 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:44 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-bbqybqxwtffknkaexlnwruiitpbezliy ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872543.5136635-3578-163288367180779/AnsiballZ_file.py'
+Oct  1 16:35:44 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:44 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-vxwhmphqefkgignkozjghidzjmglcwfn ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872543.532004-3579-70431162839211/AnsiballZ_file.py'
+Oct  1 16:35:44 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:44 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:44 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:44 ubuntu-jammy sudo:  vagrant : TTY=pts/2 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hkevpritkagbolntrjdpzzgzofnsoqtl ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872544.379536-3605-157614111343183/AnsiballZ_setup.py'
+Oct  1 16:35:44 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:45 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:45 ubuntu-jammy sudo:  vagrant : TTY=pts/2 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rwbagzohpaestdqqndahzntjheeylhlg ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872545.2319055-3683-131710648616067/AnsiballZ_apt.py'
+Oct  1 16:35:45 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:50 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:50 ubuntu-jammy sudo:  vagrant : TTY=pts/2 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-yocwstfwoxtycpcdkxcdudldrpldixzg ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872550.7865999-4065-239143504878667/AnsiballZ_stat.py'
+Oct  1 16:35:50 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:51 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:35:51 ubuntu-jammy sudo:  vagrant : TTY=pts/2 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-fqcqawmqydbtosyyqzyecqmispaoebus ; /usr/bin/python3 /home/vagrant/.ansible/tmp/ansible-tmp-1790872550.7865999-4065-239143504878667/AnsiballZ_file.py'
+Oct  1 16:35:51 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Oct  1 16:35:51 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 16:41:27 ubuntu-jammy sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/grep -r 'AUDITORIA DO PROJETO LOWE' /var/lib/dados_persistentes/logs_remotos/
+Oct  1 16:41:27 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)

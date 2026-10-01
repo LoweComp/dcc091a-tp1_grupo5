@@ -1,0 +1,14 @@
+Oct  1 16:36:00 ubuntu-jammy systemd-logind[702]: Session 3 logged out. Waiting for processes to exit.
+Oct  1 16:36:00 ubuntu-jammy systemd-logind[702]: Removed session 3.
+Oct  1 16:36:44 ubuntu-jammy systemd-logind[700]: Session 3 logged out. Waiting for processes to exit.
+Oct  1 16:36:44 ubuntu-jammy systemd-logind[700]: Removed session 3.
+Oct  1 16:36:45 ubuntu-jammy systemd-logind[690]: Session 3 logged out. Waiting for processes to exit.
+Oct  1 16:36:45 ubuntu-jammy systemd-logind[690]: Removed session 3.
+Oct  1 16:36:51 ubuntu-jammy systemd-logind[699]: Session 5 logged out. Waiting for processes to exit.
+Oct  1 16:36:51 ubuntu-jammy systemd-logind[699]: Removed session 5.
+Oct  1 16:38:28 ubuntu-jammy systemd-logind[699]: Session 3 logged out. Waiting for processes to exit.
+Oct  1 16:38:28 ubuntu-jammy systemd-logind[699]: Removed session 3.
+Oct  1 16:40:12 ubuntu-jammy systemd-logind[700]: New session 5 of user vagrant.
+Oct  1 16:40:56 ubuntu-jammy systemd-logind[700]: Session 5 logged out. Waiting for processes to exit.
+Oct  1 16:40:56 ubuntu-jammy systemd-logind[700]: Removed session 5.
+Oct  1 16:41:06 ubuntu-jammy systemd-logind[702]: New session 5 of user vagrant.

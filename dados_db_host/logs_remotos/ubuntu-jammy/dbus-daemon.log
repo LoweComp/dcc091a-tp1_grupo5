@@ -1,0 +1,4 @@
+Oct  1 16:34:13 ubuntu-jammy dbus-daemon[690]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.22' (uid=0 pid=2272 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct  1 16:34:13 ubuntu-jammy dbus-daemon[690]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.24' (uid=0 pid=2275 comm="/usr/libexec/packagekitd " label="unconfined")
+Oct  1 16:34:13 ubuntu-jammy dbus-daemon[690]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct  1 16:34:14 ubuntu-jammy dbus-daemon[690]: [system] Successfully activated service 'org.freedesktop.PackageKit'

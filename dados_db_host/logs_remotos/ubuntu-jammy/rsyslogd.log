@@ -1,0 +1,29 @@
+Oct  1 16:33:59 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="697" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct  1 16:33:59 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="697" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Oct  1 16:33:59 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 16:33:59 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 16:33:59 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 16:33:59 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="1827" x-info="https://www.rsyslog.com"] start
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="694" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="694" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="3239" x-info="https://www.rsyslog.com"] start
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="685" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="685" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="3410" x-info="https://www.rsyslog.com"] start
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="694" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="694" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 16:35:02 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="3509" x-info="https://www.rsyslog.com"] start
+Oct  1 16:36:59 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="3410" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Oct  1 16:36:59 ubuntu-jammy rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Oct  1 16:36:59 ubuntu-jammy rsyslogd: rsyslogd's groupid changed to 111
+Oct  1 16:36:59 ubuntu-jammy rsyslogd: rsyslogd's userid changed to 104
+Oct  1 16:36:59 ubuntu-jammy rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="11022" x-info="https://www.rsyslog.com"] start

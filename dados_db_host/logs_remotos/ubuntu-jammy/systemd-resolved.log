@@ -1,0 +1,1 @@
+Oct  1 16:34:04 ubuntu-jammy systemd-resolved[628]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 10.0.2.3.
