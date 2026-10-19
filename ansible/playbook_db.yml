@@ -1,0 +1,22 @@
+---
+- name: Configurar o Servidor de Base de Dados
+  hosts: db_group
+  become: yes
+  tasks:
+    - name: Atualizar o cache do apt
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Instalar o motor do banco de dados (MySQL)
+      apt:
+        name: 
+          - mysql-server
+          - python3-pymysql
+        state: present
+
+    - name: Garantir que o serviço do banco está rodando
+      service:
+        name: mysql
+        state: started
+        enabled: yes

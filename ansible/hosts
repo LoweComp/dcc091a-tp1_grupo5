@@ -1,0 +1,16 @@
+[db_group]
+db ansible_host=192.168.56.30 ansible_ssh_private_key_file=~/.ssh/keys/db_key
+
+[bastion_group]
+bastion ansible_host=127.0.0.1 ansible_connection=local
+
+[master_group]
+master ansible_host=192.168.56.20 ansible_ssh_private_key_file=~/.ssh/keys/master_key
+
+[workers_group]
+worker1 ansible_host=192.168.56.21 ansible_ssh_private_key_file=~/.ssh/keys/worker1_key
+worker2 ansible_host=192.168.56.22 ansible_ssh_private_key_file=~/.ssh/keys/worker2_key
+
+[all:vars]
+ansible_user=vagrant
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
