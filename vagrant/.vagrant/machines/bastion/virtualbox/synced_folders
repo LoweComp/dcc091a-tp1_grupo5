@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/Workspace/dcc091a-tp1/vagrant","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/ansible":{"guestpath":"/ansible","hostpath":"D:/Workspace/dcc091a-tp1/ansible","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/Workspace/dcc091a-tp1/vagrant","disabled":false,"__vagrantfile":true}}}
