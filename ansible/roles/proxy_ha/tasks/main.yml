@@ -1,5 +1,5 @@
 ---
-- name: Instalar Nginx e Keepalived (para HA)
+- name: Instalar Nginx e Keepalived
   apt:
     name: 
       - nginx
@@ -11,8 +11,8 @@
   copy:
     content: |
       upstream k3s_cluster {
-          server 192.168.56.20; # IP do Master
-          server 192.168.56.30; # IP do Worker
+          server 192.168.56.20;
+          server 192.168.56.30;
       }
       server {
           listen 80;
@@ -24,8 +24,52 @@
       }
     dest: /etc/nginx/sites-available/default
 
-- name: Reiniciar e ativar Nginx
+- name: Configurar Keepalived (Alta Disponibilidade)
+  copy:
+    content: |
+      vrrp_instance VI_1 {
+          state {{ 'MASTER' if inventory_hostname == 'bastion' else 'BACKUP' }}
+          interface enp0s8
+          virtual_router_id 51
+          priority {{ 100 if inventory_hostname == 'bastion' else 90 }}
+          advert_int 1
+          authentication {
+              auth_type PASS
+              auth_pass senha_tp2
+          }
+          virtual_ipaddress {
+              192.168.56.254/24
+          }
+      }
+    dest: /etc/keepalived/keepalived.conf
+
+- name: Habilitar IP Forwarding no kernel
+  sysctl:
+    name: net.ipv4.ip_forward
+    value: '1'
+    sysctl_set: yes
+    state: present
+    reload: yes
+
+- name: Permitir roteamento (FORWARD) na firewall UFW
+  lineinfile:
+    path: /etc/default/ufw
+    regexp: '^DEFAULT_FORWARD_POLICY='
+    line: 'DEFAULT_FORWARD_POLICY="ACCEPT"'
+
+- name: Configurar Masquerade (NAT) para saida de internet
+  iptables:
+    table: nat
+    chain: POSTROUTING
+    out_interface: enp0s3
+    jump: MASQUERADE
+
+- name: Reiniciar e ativar servicos essenciais
   service:
-    name: nginx
+    name: "{{ item }}"
     state: restarted
     enabled: yes
+  loop:
+    - nginx
+    - keepalived
+    - ufw

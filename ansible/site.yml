@@ -10,3 +10,15 @@
   become: yes
   roles:
     - proxy_ha
+
+- name: Configurar o K3s Master
+  hosts: master
+  become: yes
+  roles:
+    - k3s_server
+
+- name: Configurar o K3s Worker
+  hosts: workers
+  become: yes
+  roles:
+    - k3s_agent
