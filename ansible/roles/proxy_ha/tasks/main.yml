@@ -1,0 +1,31 @@
+---
+- name: Instalar Nginx e Keepalived (para HA)
+  apt:
+    name: 
+      - nginx
+      - keepalived
+    state: present
+    update_cache: yes
+
+- name: Configurar o Proxy Reverso Nginx para o cluster K3s
+  copy:
+    content: |
+      upstream k3s_cluster {
+          server 192.168.56.20; # IP do Master
+          server 192.168.56.30; # IP do Worker
+      }
+      server {
+          listen 80;
+          location / {
+              proxy_pass http://k3s_cluster;
+              proxy_set_header Host $host;
+              proxy_set_header X-Real-IP $remote_addr;
+          }
+      }
+    dest: /etc/nginx/sites-available/default
+
+- name: Reiniciar e ativar Nginx
+  service:
+    name: nginx
+    state: restarted
+    enabled: yes

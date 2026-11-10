@@ -1,0 +1,38 @@
+---
+- name: Atualizar cache de pacotes APT (Apt Update)
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600
+
+- name: Instalar pacotes utilitários essenciais
+  apt:
+    name:
+      - curl
+      - htop
+      - tcpdump
+      - dnsutils
+      - ufw
+    state: present
+
+- name: Configurar fuso horário para UTC
+  timezone:
+    name: Etc/UTC
+
+- name: Configurar o mapeamento completo no /etc/hosts para resolução de nomes
+  lineinfile:
+    path: /etc/hosts
+    regexp: '^{{ item.ip }}'
+    line: '{{ item.ip }} {{ item.name }}'
+    state: present
+  loop:
+    - { ip: '192.168.56.10', name: 'bastion' }
+    - { ip: '192.168.56.20', name: 'k3s-server' }
+    - { ip: '192.168.56.30', name: 'k3s-worker' }
+    - { ip: '192.168.56.40', name: 'auxiliary' }
+    - { ip: '192.168.56.254', name: 'vip-cluster' }
+
+- name: Garantir que o UFW está ativo e a permitir tráfego interno na rede privada
+  ufw:
+    rule: allow
+    interface: eth1
+    direction: in
